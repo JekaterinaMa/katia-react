@@ -1,0 +1,220 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.title {
+font-family: synth;
+color: aliceblue;
+text-shadow: 0px 0px 10px rgb(34, 3, 106), 5px 0 30px rgb(208, 203, 212), 0 1px 5px rgb(8, 212, 97);
+margin: 40px 20px 40px 0px;
+border-radius: 5px;
+background-color: #36223e;
+box-shadow: 0px 0px 3px rgb(34, 3, 106), 5px 0px 8px #dfc3de, 0px 5px 8px #dfc3de;
+overflow: visible;
+}
+
+.title h1 {
+    display: inline-block;
+    margin: 10px 10px 20px 30px;
+}
+
+.date {
+    text-align: left;
+    font-family: "Lucida Console";
+}
+.product-row {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    border-bottom-style: solid;
+    border-bottom-color: #036767;    
+    border-radius: 5px;
+    background-color: #d4f0ea;  
+    
+}
+.discount-row {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;            
+    border-radius: 5px;
+    background-color: #e2d4f0;  
+    
+}
+.price-column {
+    float: right;    
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+.product-column {
+    float: left;    
+    width: 60%;
+    padding: 5px; 
+}
+.one-product
+{
+    padding: 0 0 20px 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.add-form {
+    margin: 100px 0px 0 0;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    max-width: 400px;
+    border-radius: 5px;
+    background-color: #36223e;
+    box-shadow: 0px 0px 3px rgb(34, 3, 106), 5px 0px 8px #dfc3de, 0px 5px 8px #dfc3de;
+}
+.add-form-quantity {
+    max-width: 20%;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.add-form-column {
+    max-width: 43%;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+.add-form-name {
+    display: inline-block;
+    max-width: 70%;
+    margin: 0;
+}
+.add-form-purchaseDate {
+    display: inline-block;
+    max-width: 90%;
+    margin: 0;
+}
+.add-form input, .add-form select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 2px #26053e, 1px 0px 5px #4e8d80;
+}
+.add-form label {
+    font-size: 25px;
+    color: rgb(191, 159, 210);
+    font-family: synth2;
+    text-shadow: 0 0 5px #011c16, 1px 0 10px #efb3f7;
+}
+.add-form button {
+  width: 50%;
+  background-color: #4e8d80;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 25%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.add-form button:hover {
+    background-color: #036767;  
+}
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 0px 0px;
+}
+.column2 {
+    float: left;
+    width: 70%;
+    padding: 0px 0px;
+}
+.home {
+    text-align: center;
+    font-size: 5vmin;
+    padding: 50px 30% 13%;
+    background-color: #b3f7c3;
+    color: crimson;
+    font-family: Synth;
+    text-shadow: 1px 1px 2px rgb(23, 144, 163), 0 0 25px rgb(31, 31, 110), 0 0 5px rgb(94, 186, 233);
+}
+.home h1 {
+    font-size: 10vmin; 
+    display:block; 
+}
+
+.navbar-background {    
+    background-color: #65336d;
+    font-family: synth2;
+
+}
+.navbar1 {
+    display: inline-block;
+    background-color: rgb(107, 100, 122);   
+}
+
+.navbar2 {
+    display: inline-block;
+    background-color: rgb(107, 80, 122);
+}
+.navbar3 {
+    display: inline-block; 
+    background-color: rgb(107, 60, 122);
+   
+}
+.navbar-background a {
+    font-size: 3vmin;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+.navbar-background a:hover {
+    background-color: rgb(126, 100, 100);
+    color: white;
+    text-decoration: none;
+  }
+
+.border1 {
+    background-image: url("img/gradienTop.png");
+    height: 200px;
+    background-color: rgb(179, 247, 195);
+}
+.border2 {
+    background-image: url("img/gradientBot.png");
+    height: 200px;
+    background-color: rgb(179, 247, 195);
+}
+
+.view-select {
+    padding: 50px 10px 20px 10px;
+    text-align: center;
+    max-width: 400px;
+}
+.view-select select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 20px rgb(45, 178, 193), 10px 10px 10px rgb(132, 0, 255);
+}
+@font-face {
+    font-family: synth;
+    src: url(img/sujeto1.ttf);
+  }
+@font-face {
+    font-family: synth2;
+    src: url(img/sujet.ttf);
+  }
+
+.view2 {
+    text-align: left;
+    font-family: "Lucida Console";
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rgb(34, 3, 106), 5px 0 30px rgb(208, 203, 212), 0 1px 5px rgb(8, 212, 97);
+    margin: 20px 20px 20px 0px;
+    border-radius: 5px;
+    background-color: #36223e;
+    box-shadow: 0px 0px 3px rgb(34, 3, 106), 5px 0px 8px #dfc3de, 0px 5px 8px #dfc3de;
+    overflow: visible;
+    padding: 10px 10px;
+    font-size: 3vmin;
+}
