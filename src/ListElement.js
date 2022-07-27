@@ -12,7 +12,7 @@ const ListElement = (props) => {
 
     return ( 
         <div>
-        <div className="title"><h1>    ProductList    </h1><h1> {PriceSum.toFixed(2)} </h1></div> 
+        <div className="title"> <h1>Price sum  {PriceSum.toFixed(2)} </h1> </div> 
         {products && products.map((product) =>(
             <div key={product.id}>
               <div className="one-product" onClick={()=>props.clicked(product)}>

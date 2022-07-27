@@ -24,7 +24,7 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
         min.min = 1000;
         max.max = 0;
         let quantity = {}, quantity2 = [];
-        console.log("Use Effect in view 2 started");        
+        console.log("Use Effect in view2 started");        
         
             MonthProductListView2.forEach(product=>{
                 if (Number(product.price) < min.min) {
@@ -83,7 +83,7 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
         
         {MonthProductListView2 && 
         <div >
-            <h1 className="view2"> Statistics for {SMonth} month:</h1>
+            <h1 className="view2"> Statistics for {SMonth}th month:</h1>
             <h1 className="view2"> Least expensive product {Smin.min}  {Smin.name}</h1>
             <h1 className="view2"> Most expensive product  {Smax.max}  {Smax.name} </h1>
             <h1 className="view2"> Discount sum      {SdiscountSum} </h1>

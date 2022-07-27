@@ -175,6 +175,24 @@
       "discount": "0",
       "purchaseDate": "2022-08-07",
       "id": 25
+    },
+    {
+      "name": "Petrazoles",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-7-27",
+      "id": 26
+    },
+    {
+      "name": "Petrazoles",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-7-27",
+      "id": 27
     }
   ]
 }

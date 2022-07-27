@@ -5,31 +5,24 @@ const AddProductForm = ({clicked, changed, submitted}) => {
     let dateString = date.getFullYear().toString()+"-"+(date.getMonth()+1).toString()+"-"+date.getDate().toString();
     const [name, setName] = useState("");
     const [quantity, setQuantity] = useState(1);
+    const [place, setPlace] = useState("iki");
     const [price, setPrice] = useState("1.50");
     const [discount, setDiscount] = useState("0.79");
     const [purchaseDate, setPurchaseDate] = useState(dateString);
     const [isPending, setPending] = useState(false);
 
-    useEffect(()=>{if (clicked) {
-
-        console.log(`Use effect props.clicked.name  `);
-        console.log(clicked.name);
-        setName(clicked.name);        
-        console.log(`UseEffect has name `+ name);}
+    useEffect(()=>{  
+        if (clicked)   {
+            setName(clicked.name);
+        }      
                     },[clicked])
 
 
     const handleSubmit = (e) => {
-
-        e.preventDefault();
-        console.log("after submit props.clicked.name : ");
-        if (clicked) {console.log(clicked.name);}
-        //setName(clicked.name);
-        console.log(`Submit has name `+ name);        
-        submitted();
-        
-      const product = { name, quantity, price, discount, purchaseDate } ;
-      setPending(true);
+        e.preventDefault();                       
+        submitted();        
+        const product = { name, quantity, place, price, discount, purchaseDate } ;
+        setPending(true);
 
       fetch("http://localhost:8000/products",
       {
@@ -44,8 +37,7 @@ const AddProductForm = ({clicked, changed, submitted}) => {
     }
 
     const handleChange = (e) =>{
-        setName(e.target.value);
-        console.log(`handled change with name ${name}`);        
+        setName(e.target.value);                
         submitted();
         changed();
 
@@ -63,11 +55,17 @@ const AddProductForm = ({clicked, changed, submitted}) => {
                     onChange={(e)=>handleChange(e)} />                
                 </div>
                 <div>                    
-                    <div className='add-form-quantity'>
+                    <div className='add-form-column'>
                     <label> Product quantity </label>
                     <input type="number" 
                     required value = {quantity} 
                     onChange={(e)=>setQuantity(e.target.value)} />                 
+                    </div>
+                    <div className='add-form-column'>
+                    <label> Purchase place name </label>
+                    <input type="text" 
+                    required value = {place} 
+                    onChange={(e)=>setPlace(e.target.value)} />                 
                     </div>
                 </div>
                 <div>

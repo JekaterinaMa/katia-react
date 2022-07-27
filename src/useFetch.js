@@ -20,14 +20,14 @@ const useFetch = (url, submitted) => {
                  setData(data); 
                  setPending(false);
                  setFailed(null);
-                 console.log(" UseFetch data after then code "+data);
+                 console.log(" UseFetch in async part ");
             })
             .catch(err=>{
                 console.log(`Network error catched: ${err.message}`);
                 setPending(false); 
                 setFailed(err.message);
             }) 
-            console.log(" UseFetch data after load code "+data);      
+            console.log(" UseFetch data after async function code ");      
         }, [url, submitted]);         
      
      return { data, isPending, failed }
