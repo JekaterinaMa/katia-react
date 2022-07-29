@@ -193,6 +193,69 @@
       "discount": "0.79",
       "purchaseDate": "2022-7-27",
       "id": 27
+    },
+    {
+      "name": "Petrazoles",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-7-27",
+      "id": 28
+    },
+    {
+      "name": "Petrazoles",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-7-27",
+      "id": 29
+    },
+    {
+      "name": "Petrazoles",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-7-27",
+      "id": 30
+    },
+    {
+      "name": "desra",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-04-20",
+      "id": 31
+    },
+    {
+      "name": "desra",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-04-20",
+      "id": 32
+    },
+    {
+      "name": "Petrazoles",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-04-20",
+      "id": 33
+    },
+    {
+      "name": "desra",
+      "quantity": 1,
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.79",
+      "purchaseDate": "2022-7-28",
+      "id": 34
     }
   ]
 }

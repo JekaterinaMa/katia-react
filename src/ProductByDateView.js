@@ -1,5 +1,5 @@
 const ProductsByDateView = ({ProductsByDate}) => {
-
+    ProductsByDate && console.log("Product by date element begin, argument ProductsByDate[1].id passed: "+ProductsByDate)
     return ( 
         <div>
             {

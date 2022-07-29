@@ -20,7 +20,8 @@ const useLoadData = (url,ChosenDate) => {
            return { 
                     name: product.name,
                     price: product.price,
-                    discount: product.discount
+                    discount: product.discount,
+                    id: product.id
                    }  
         }
     }
@@ -32,7 +33,8 @@ const useLoadData = (url,ChosenDate) => {
            return { 
                     name: product.name,
                     price: product.price,
-                    discount: product.discount
+                    discount: product.discount,
+                    id: product.id
                    }  
         }
     }
@@ -59,7 +61,7 @@ const useLoadData = (url,ChosenDate) => {
                 setDateArray(DateArray);
                 setProductList(data.filter(FindDate));
                 setMonthProductList(data.filter(FindMonth))
-                console.log(" useLoadData ProductList  after then code "+ ProductList+" and ChosenDate "+ChosenDate);
+                console.log(" useLoadData ProductList  after then code: "+ ProductList+" and ChosenDate "+ChosenDate);
             })
             .catch(err=>{
                 console.log(`Network error catched: ${err.message}`);

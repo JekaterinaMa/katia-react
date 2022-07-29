@@ -50,11 +50,11 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
                 }
                 if (quantity[product.name])
                 {
-                    quantity[product.name]++;
+                    quantity[product.name].quantity++;
                     product.quantity=quantity[product.name];
                 }
                 else {
-                    quantity[product.name]=1;                    
+                    quantity[product.name]= {quantity: 1, name: product.name, price: product.price, id: product.id};                    
                     product.quantity=quantity[product.name];
                 }
                 discountSum = discountSum + Number(product.discount);        
@@ -62,9 +62,9 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
                                
             })
             for (let product in quantity) {
-                console.log("quantity parameters " +product+ " kiekis "+quantity[product]);
-                if (quantity[product]>1) {
-                    quantity2.push({name: product, quantity: quantity[product] })
+                console.log("quantity parameters " +product+ " kiekis "+quantity[product].quantity);
+                if (quantity[product].quantity>1) {
+                    quantity2.push({name: product, quantity: quantity[product].quantity, price: quantity[product].price})
                     console.log("quantity2 " +quantity2+ " kiekis ");
                 }                
             }
@@ -89,7 +89,7 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
             <h1 className="view2"> Discount sum      {SdiscountSum} </h1>
             <h1 className="view2"> Product price sum  {SpriceSum}  </h1>
             {SQuantity && SQuantity.map(ProductName=>(
-                <div>{ProductName.name}  {ProductName.quantity}</div>
+               <div key={ProductName.id}>{ProductName.name}  {ProductName.quantity}</div>
             ))}            
         </div>}
 
