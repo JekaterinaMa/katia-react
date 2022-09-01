@@ -54,8 +54,7 @@ const View = () => {
                     }          
                 </select>
             </div> 
-        }
-        
+        }        
             <div className="view-select">
                 <select onChange={handleChangeMonth}>
                     {  
@@ -73,6 +72,9 @@ const View = () => {
             <div>
             {DayProductList && <ProductsByMonthView ProductsByMonth={MonthProductList}/>}   
             </div>
+        </div>
+        <div className="column3">
+            s
         </div>
         <div className="column2">
             <View2 ChosenMonth={ChosenMonth} ChosenYear={ChosenYear} MonthProductListView2={MonthProductList}/>

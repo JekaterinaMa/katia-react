@@ -20,6 +20,20 @@ overflow: visible;
 width: 70%;
 }
 
+.title2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: synth;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rgb(34, 3, 106), 5px 0 30px rgb(208, 203, 212), 0 1px 5px rgb(8, 212, 97);
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #36223e;
+    box-shadow: 0px 0px 3px rgb(34, 3, 106), 5px 0px 8px #dfc3de, 0px 5px 8px #dfc3de;
+    overflow: visible;
+    width: 70%;
+    }
+
 .title h1 {
     display: inline-block;
     margin: 10px 10px 10px 10px;
@@ -37,7 +51,8 @@ width: 70%;
     border-bottom-style: solid;
     border-bottom-color: #036767;    
     border-radius: 5px;
-    background-color: #d4f0ea;  
+    background-color: #d4f0ea;
+    padding: 0px 0px 0px 20px;  
     
 }
 .discount-row {
@@ -45,7 +60,8 @@ width: 70%;
     box-sizing: border-box;
     overflow: auto;            
     border-radius: 5px;
-    background-color: #e2d4f0;  
+    background-color: #e2d4f0;
+    padding: 0px 0px 0px 20px;   
     
 }
 .price-column {
@@ -63,6 +79,9 @@ width: 70%;
 {
     border-style: dotted;
     border-width: 2px;
+    background-color: #e2d4f0;    
+    text-shadow: 0px 0px 5px rgb(245, 243, 250), 5px 0 30px rgb(160, 128, 186), 0 1px 10px #e2cafb;
+    padding: 0px 0px 0px 20px;
     box-shadow: 0px 0px 3px rgb(34, 3, 106), 5px 0px 8px #dfc3de, 0px 5px 8px #dfc3de;
 }
 .one-product
@@ -135,12 +154,18 @@ width: 70%;
     
     float: left;
     width: 30%;
-    padding: 0px 0px;
+    padding: 0 0 0 30px;
 }
 .column2 {
     
     float: left;
-    width: 70%;
+    width: 60%;
+    padding: 0px 0px;
+}
+.column3 {
+    
+    float: left;
+    width: 10%;
     padding: 0px 0px;
 }
 .home {
@@ -259,7 +284,7 @@ width: 70%;
     border-radius: 5px;    
     background-color: #eae4ed;
     margin: 5px;
-    width: 70%;
+    width: 90%;
   }
 
   .space-left {
