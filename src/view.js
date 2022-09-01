@@ -1,57 +1,81 @@
 //import useFetch from "./useFetch";
 import { useState, useEffect } from "react";
 import useLoadData from "./useLoadData";
-import ProductsByDateView from "./ProductByDateView";
-import ListElement from "./ListElement";
+import ProductsByMonthView from "./ProductByMonthView";
 import View2 from "./View2";
 
 
 
 const View = () => {
-    console.log("Begin view ");        
+    console.log("Begin view ");
+            
     const date = new Date();
     let dateString = date.getFullYear().toString()+"-"+(date.getMonth()+1).toString()+"-"+date.getDate().toString();
     let [ChosenDate,setChosenDate] = useState(dateString);
+    let [ChosenYear,setChosenYear] = useState(date.getFullYear().toString());
+    let [ChosenMonth,setChosenMonth] = useState((date.getMonth()+1).toString());
+    let MonthArray = [1,2,3,4,5,6,7,8,9,10,11,12];
     let KeyID = 0;
 
-    const {data, isPending, failed, DateArrayState, ProductList, MonthProductList} = useLoadData("http://localhost:8000/products",ChosenDate);        
-       
+    const {data, isPending, failed, SDateArray, SYearArray, DayProductList, MonthProductList} = useLoadData("http://localhost:8000/products",ChosenMonth ,ChosenYear, ChosenDate );        
+    console.log(" View MonthProductList after useLoadData:"+ MonthProductList);   
     
-    let handleChange = (e) => {
-        setChosenDate(e.target.value);
-        console.log(" Target Value handle change "+ e.target.value);        
-        console.log(" Chosen Date in handle change "+ ChosenDate);
-        console.log(" ProductList in handle change "+ ProductList);     
-        }  
+    let handleChangeYear = (e) => {
+            setChosenYear(e.target.value);             
+            }
+            
+    let handleChangeMonth = (e) => {
+            setChosenMonth(e.target.value);             
+            } 
+
+    let handleChangeDate = (e) => {
+            setChosenDate(e.target.value);             
+            }  
               
     
                
    return ( 
-    <div>        
+    <div className="background"> 
+        <div className="border-view"></div>       
         {failed && <div className="product-list-background"> {failed} </div>}
         {isPending && <div className="product-list-background">Fetching products from ... </div>}
         <div className="column1">
-        {DateArrayState && 
+        {SYearArray && 
             <div className="view-select">
-                <select onChange={handleChange}>
+                <select onChange={handleChangeYear}>
                     {  
-                        DateArrayState.map(date => (      
+                        SYearArray.map(year => (      
                                 <option
                                      key={KeyID++}
-                                     value={date}>
-                                         {date}
+                                     value={year}>
+                                         {year}
                                 </option>                  
                         )) 
                     }          
                 </select>
             </div> 
         }
+        
+            <div className="view-select">
+                <select onChange={handleChangeMonth}>
+                    {  
+                        MonthArray.map(month => (      
+                                <option
+                                     key={KeyID++}
+                                     value={month}>
+                                         {month}
+                                </option>                  
+                        )) 
+                    }          
+                </select>
+            </div> 
+        
             <div>
-            {ProductList && <ProductsByDateView ProductsByDate={ProductList}/>}   
+            {DayProductList && <ProductsByMonthView ProductsByMonth={MonthProductList}/>}   
             </div>
         </div>
         <div className="column2">
-            <View2 ChosenDateTrigger={ChosenDate} MonthProductListView2={MonthProductList}/>
+            <View2 ChosenMonth={ChosenMonth} ChosenYear={ChosenYear} MonthProductListView2={MonthProductList}/>
         </div>           
     </div>
      );

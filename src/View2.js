@@ -1,26 +1,21 @@
 import { useEffect, useState } from "react";
 import LoadProducts from "./LoadProducts";
 
-const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
+const View2 = ({ChosenMonth, ChosenYear, MonthProductListView2}) => {
 
     console.log("View 2 begin");
-    console.log(" Chosen Date in view 2 "+ ChosenDateTrigger);
-    let month = ChosenDateTrigger.split("-");
-
+    
     const [SMonth, setMonth] = useState("choose date");
     const [Smin, setSMin] = useState(0);
     const [Smax, setSMax] = useState(0);
     const [SdiscountSum, setSdiscountSum] = useState(0);
     const [SpriceSum, setSpriceSum] = useState(0);
     const [SQuantity, setSQuantity] = useState(null);
-    
-
-    
-    
-    
+    let KeyID=0;   
+   
     useEffect(()=>{ 
-        setMonth(month[1]);
-        var min={}, max={}, discountSum=0, priceSum=0;
+        setMonth(ChosenMonth);
+        var min={}, max={}, discountSum=0, priceSum=0;        
         min.min = 1000;
         max.max = 0;
         let quantity = {}, quantity2 = [];
@@ -51,6 +46,7 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
                 if (quantity[product.name])
                 {
                     quantity[product.name].quantity++;
+                    quantity[product.name].price = Number(quantity[product.name].price) + Number(product.price);
                     product.quantity=quantity[product.name];
                 }
                 else {
@@ -64,7 +60,8 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
             for (let product in quantity) {
                 console.log("quantity parameters " +product+ " kiekis "+quantity[product].quantity);
                 if (quantity[product].quantity>1) {
-                    quantity2.push({name: product, quantity: quantity[product].quantity, price: quantity[product].price})
+                    let AvgMonthPrice = (quantity[product].price/30).toFixed(2);
+                    quantity2.push({name: product, quantity: quantity[product].quantity, price: quantity[product].price, AvgPrice: AvgMonthPrice})
                     console.log("quantity2 " +quantity2+ " kiekis ");
                 }                
             }
@@ -75,7 +72,7 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
             setSQuantity(quantity2);                          
                 
         console.log("Use Effect in view 2 ended");              
-     },[ChosenDateTrigger,MonthProductListView2])
+     },[MonthProductListView2])
 
      
 
@@ -83,13 +80,16 @@ const View2 = ({ChosenDateTrigger, MonthProductListView2}) => {
         
         {MonthProductListView2 && 
         <div >
-            <h1 className="view2"> Statistics for {SMonth}th month:</h1>
-            <h1 className="view2"> Least expensive product {Smin.min}  {Smin.name}</h1>
-            <h1 className="view2"> Most expensive product  {Smax.max}  {Smax.name} </h1>
-            <h1 className="view2"> Discount sum      {SdiscountSum} </h1>
-            <h1 className="view2"> Product price sum  {SpriceSum}  </h1>
+            <div className="title" id="borderScrew"><div className="space-left"></div>Statistics for {ChosenYear} {SMonth}th month:</div>
+            <div className="date-outline"> Least expensive product {Smin.min}  {Smin.name}</div>
+            <div className="date-outline"> Most expensive product  {Smax.max}  {Smax.name} </div>
+            <div className="date-outline"> Discount sum      {SdiscountSum} </div>
+            <div className="date-outline"> Product price sum  {SpriceSum}  </div>
             {SQuantity && SQuantity.map(ProductName=>(
-               <div key={ProductName.id}>{ProductName.name}  {ProductName.quantity}</div>
+                <div key={KeyID++}>
+                   <div className="date-outline"> Some products you bought more than once : {ProductName.name} : {ProductName.quantity} spent {ProductName.price} on them</div>
+                   <div className="date-outline"> On average you spend {ProductName.AvgPrice} per day for {ProductName.name}</div>
+                </div>
             ))}            
         </div>}
 

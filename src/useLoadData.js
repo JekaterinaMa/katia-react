@@ -1,7 +1,7 @@
 import { useState, useEffect} from "react";
 
 
-const useLoadData = (url,ChosenDate) => {
+const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
 
     const [data, setData] = useState(null);
     const [isPending, setPending] = useState(true); 
@@ -9,16 +9,20 @@ const useLoadData = (url,ChosenDate) => {
 
     let AllDate = [];
     let DateSet = [];
-    let DateArray =[];
+    let YearSet = [];
+    let DateArraySet =[];    
+    let YearArray = [];
 
-    let [DateArrayState,setDateArray] = useState(DateArray);
-    let [ProductList,setProductList] = useState([]);
+    let [SDateArray,setDateArray] = useState(DateArraySet);
+    let [SYearArray,setYearArray] = useState(YearSet);
+    let [DayProductList,setDayProductList] = useState([]);
     let [MonthProductList,setMonthProductList] = useState([]);
 
     function FindDate(product) {
         if (product.purchaseDate === ChosenDate) {
            return { 
                     name: product.name,
+                    place: product.place,
                     price: product.price,
                     discount: product.discount,
                     id: product.id
@@ -27,13 +31,15 @@ const useLoadData = (url,ChosenDate) => {
     }
 
     function FindMonth(product) {
-        const chosenMonth = ChosenDate.split("-");
+        
         const productMonth = product.purchaseDate.split("-");
-        if ((chosenMonth[1] === productMonth[1]) && (chosenMonth[0] === productMonth[0])) {
+        if ((ChosenMonth === productMonth[1]) && (ChosenYear === productMonth[0])) {
            return { 
                     name: product.name,
+                    place: product.place,
                     price: product.price,
                     discount: product.discount,
+                    purchaseDate: product.purchaseDate, 
                     id: product.id
                    }  
         }
@@ -55,13 +61,23 @@ const useLoadData = (url,ChosenDate) => {
                  
                  AllDate = data.map(product =>product.purchaseDate);
                  DateSet = new Set(AllDate);
-                    for (const date of DateSet.values()) {               
-                        DateArray.push(date);                              
+                    for (const date of DateSet.values()) {  
+                        const year=date.split("-")             
+                        DateArraySet.push(date);
+                        YearArray.push(year[0]);                              
                     } 
-                setDateArray(DateArray);
-                setProductList(data.filter(FindDate));
-                setMonthProductList(data.filter(FindMonth))
-                console.log(" useLoadData ProductList  after then code: "+ ProductList+" and ChosenDate "+ChosenDate);
+                 YearSet = new Set(YearArray);
+                 YearArray = [];
+                    for (const year of YearSet.values())
+                    {
+                        YearArray.push(year); 
+                    }
+                setYearArray(YearArray);
+                setDateArray(DateArraySet);
+                setDayProductList(data.filter(FindDate));
+                setMonthProductList(data.filter(FindMonth));
+                console.log(" useLoadData MonthProductList :"+MonthProductList);
+                
             })
             .catch(err=>{
                 console.log(`Network error catched: ${err.message}`);
@@ -69,9 +85,9 @@ const useLoadData = (url,ChosenDate) => {
                 setFailed(err.message);
             }) 
                  
-        }, [url,ChosenDate]);         
+        }, [url,ChosenMonth,ChosenYear,ChosenDate]);         
      
-     return { data, isPending, failed, DateArrayState, ProductList, MonthProductList }
+     return { data, isPending, failed, SDateArray, SYearArray, DayProductList, MonthProductList }
 }
  
 export default useLoadData;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const AddProductForm = ({clicked, changed, submitted}) => {
+const AddProductForm = ({clicked, submitted}) => {
+    console.log("AddProductForm component begin");
     const date = new Date();
     let dateString = date.getFullYear().toString()+"-"+(date.getMonth()+1).toString()+"-"+date.getDate().toString();
     const [name, setName] = useState("");
@@ -37,14 +38,11 @@ const AddProductForm = ({clicked, changed, submitted}) => {
     }
 
     const handleChange = (e) =>{
-        setName(e.target.value);                
-        submitted();
-        changed();
-
+        setName(e.target.value);  
     }
 
     return ( 
-        <div className='add-form'>
+        <div className='add-form' id="borderScrew">
             <form onSubmit = {handleSubmit}>
                 <div className='add-form-purchaseDate'>                
                     <label> Product name </label>                
