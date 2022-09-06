@@ -66,7 +66,7 @@ const View2 = ({ChosenMonth, ChosenYear, MonthProductListView2}) => {
                 }                
             }
             setSdiscountSum(discountSum.toFixed(2));
-            setSpriceSum(priceSum);
+            setSpriceSum(priceSum.toFixed(2));
             setSMax(max);
             setSMin(min);
             setSQuantity(quantity2);                          

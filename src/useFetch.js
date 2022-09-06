@@ -10,8 +10,12 @@ const useFetch = (url, submitted) => {
           useEffect(()=>{
               
             fetch(url)
+            .catch(err=>{
+                console.log(`JSON is empty: ${err.message}`);  
+            })
             .then(resource => { 
                 if (!resource) {
+                    console.log("JSON is empty")
                     throw Error("No corresponding data found (access denied, wrong endpoint)")
                 }
                 return resource.json();

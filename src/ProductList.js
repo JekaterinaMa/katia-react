@@ -9,7 +9,8 @@ const ProductList = () => {
     const [clickedProduct, setClickedProduct] = useState(null);
     const {data, isPending, failed } = useFetch("http://localhost:8000/products", submitted);
     const products = data;
-        
+    console.log(" ProductList data "+products);
+
     const HandleSubmit = () => {        
        setSubmitted(!submitted);       
     }
@@ -22,12 +23,12 @@ const ProductList = () => {
     return (
         <div className="background">
             <div className="column1">            
-            {failed && <div className="product-list-background"> {failed} </div>}
-            {isPending && <div className="product-list-background">Fetching data from ... </div>}            
-            {products && <ListElement items={products} clicked={ProductClicked} />}
+                {failed && <div className="product-list-background"> {failed} </div>}
+                {isPending && <div className="product-list-background">Fetching data from ... </div>}            
+                {data && <ListElement products={products} clicked={ProductClicked} submitted={submitted} />}
             </div>
             <div className="column2">
-                <AddProduct submitted={HandleSubmit} clicked={clickedProduct}/>
+                {products && <AddProduct submitted={HandleSubmit} clicked={clickedProduct}/>}
                 
             </div>
             
