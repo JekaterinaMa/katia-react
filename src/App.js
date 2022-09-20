@@ -5,7 +5,6 @@ import HomePage from './HomePage';
 import NavBar from './NavBar';
 import View from "./view";
 
-
 function App() {
   
   return (

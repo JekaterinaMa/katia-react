@@ -3,6 +3,8 @@ import { useState, useEffect} from "react";
 
 const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
 
+    console.log(" useLoadData begin ");
+
     const [data, setData] = useState(null);
     const [isPending, setPending] = useState(true); 
     const [failed, setFailed] = useState(null);
@@ -21,7 +23,8 @@ const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
     function FindDate(product) {
         if (product.purchaseDate === ChosenDate) {
            return { 
-                    name: product.name,
+                    KeyName: product.KeyName,
+                    AdditionalInf: product.AdditionalInf,
                     place: product.place,
                     price: product.price,
                     discount: product.discount,
@@ -35,7 +38,8 @@ const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
         const productMonth = product.purchaseDate.split("-");
         if ((ChosenMonth === productMonth[1]) && (ChosenYear === productMonth[0])) {
            return { 
-                    name: product.name,
+                    KeyName: product.KeyName,
+                    AdditionalInf: product.AdditionalInf,
                     place: product.place,
                     price: product.price,
                     discount: product.discount,

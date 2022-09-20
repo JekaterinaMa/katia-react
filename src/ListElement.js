@@ -20,25 +20,31 @@ const ListElement = ({products,clicked,submitted}) => {
         {products && products.map((product) =>(
             <div key={product.id}>
               <div className="one-product" onClick={()=>clicked(product)}>
-                <div className="date">{ product.purchaseDate }</div>
+                <div className="column60"><div className="date">{ product.purchaseDate }</div></div>
+                <div className="column40right"><div className="date">{ product.place }</div></div>               
 
                 <div className="product-row">
                     
-                    <div className="product-column">
-                         { product.name } 
+                    <div className="column60">
+                         { product.KeyName }  { product.AdditionalInf } 
                     </div>
-                    
-                    <div className="price-column">
+                    <div className="column20right">
                          { product.price } 
                     </div> 
+                    <div className="column20right">
+                         { product.quantity } 
+                    </div>                                    
                     
                 </div>
 
                 <div className="discount-row">
-                    <div className="product-column">
-                         nuolaida   
+                    <div className="column20right">
+                         { (Number(product.price) - Number(product.discount)).toFixed(2) } 
+                    </div> 
+                    <div className="column40">
+                         nuolaida :   
                     </div>               
-                    <div className="price-column">                                     
+                    <div className="column20right">                                     
                         { product.discount } 
                     </div>
                 </div>

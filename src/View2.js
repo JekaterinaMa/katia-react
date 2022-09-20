@@ -5,28 +5,34 @@ const View2 = ({ChosenMonth, ChosenYear, MonthProductListView2}) => {
 
     console.log("View 2 begin");
     
-    const [SMonth, setMonth] = useState("choose date");
+    const [SMonth, setMonth] = useState(ChosenMonth);
     const [Smin, setSMin] = useState(0);
     const [Smax, setSMax] = useState(0);
     const [SdiscountSum, setSdiscountSum] = useState(0);
     const [SpriceSum, setSpriceSum] = useState(0);
     const [SQuantity, setSQuantity] = useState(null);
-    let KeyID=0;   
+    const [SClicked, setClicked] = useState(0);
+    let KeyID=0;
+       
    
     useEffect(()=>{ 
-        setMonth(ChosenMonth);
-        var min={}, max={}, discountSum=0, priceSum=0;        
-        min.min = 1000;
-        max.max = 0;
-        let quantity = {}, quantity2 = [];
-        console.log("Use Effect in view2 started");        
+        
+    switch (SClicked) {
+        case 0:
+            console.log("Use Effect in view2 started calculations");
+            var min={}, max={}, discountSum=0, priceSum=0;        
+            min.min = 1000;
+            max.max = 0;
+            let quantity = {};
+            let quantity2 = [];              
         
             MonthProductListView2.forEach(product=>{
                 if (Number(product.price) < min.min) {
                     console.log(" min.min "+ min.min);
                     min = {
                         min: Number(product.price),
-                        name: product.name,
+                        KeyName: product.KeyName, 
+                        AdditionalInf: product.AdditionalInf,
                         price: product.price,
                         discount: product.discount,
                         purchaseDate: product.purchaseDate
@@ -36,43 +42,74 @@ const View2 = ({ChosenMonth, ChosenYear, MonthProductListView2}) => {
                 if (Number(product.price) > max.max) {
                     max = {
                         max: Number(product.price),
-                        name: product.name,
+                        KeyName: product.KeyName, 
+                        AdditionalInf: product.AdditionalInf,
                         price: product.price,
                         discount: product.discount,
                         purchaseDate: product.purchaseDate
                     }
                     
                 }
-                if (quantity[product.name])
+                if (quantity[product.KeyName])
                 {
-                    quantity[product.name].quantity++;
-                    quantity[product.name].price = Number(quantity[product.name].price) + Number(product.price);
-                    product.quantity=quantity[product.name];
+                    quantity[product.KeyName].quantity++;
+                    product.quantity=quantity[product.KeyName];
+                    quantity[product.KeyName].price = (Number(quantity[product.KeyName].price) + Number(product.price)).toFixed(2);
+                    quantity[product.KeyName].priceWithDiscount = (Number(quantity[product.KeyName].priceWithDiscount) + (Number(product.price)-Number(product.discount))).toFixed(2);
                 }
                 else {
-                    quantity[product.name]= {quantity: 1, name: product.name, price: product.price, id: product.id};                    
-                    product.quantity=quantity[product.name];
+                    let priceWithDiscount = (Number(product.price)-Number(product.discount)).toFixed(2);
+                    quantity[product.KeyName]= {quantity: 1, 
+                                                KeyName: product.KeyName, 
+                                                price: product.price, 
+                                                priceWithDiscount: priceWithDiscount, 
+                                                id: product.id};                    
+                    product.quantity=quantity[product.KeyName];
                 }
                 discountSum = discountSum + Number(product.discount);        
-                priceSum = priceSum + Number(product.price);
-                               
+                priceSum = priceSum + Number(product.price);                               
             })
             for (let product in quantity) {
-                console.log("quantity parameters " +product+ " kiekis "+quantity[product].quantity);
-                if (quantity[product].quantity>1) {
-                    let AvgMonthPrice = (quantity[product].price/30).toFixed(2);
-                    quantity2.push({name: product, quantity: quantity[product].quantity, price: quantity[product].price, AvgPrice: AvgMonthPrice})
-                    console.log("quantity2 " +quantity2+ " kiekis ");
-                }                
+                let AvgPriceDiscount = (quantity[product].priceWithDiscount/30).toFixed(2);
+                let AvgMonthPrice = (quantity[product].price/30).toFixed(2);
+                quantity2.push({name: product, 
+                                quantity: quantity[product].quantity, 
+                                price: quantity[product].price, 
+                                priceWithDiscount: quantity[product].priceWithDiscount, 
+                                AvgPrice: AvgMonthPrice, 
+                                AvgPriceWithDiscount: AvgPriceDiscount})
+                                    
             }
             setSdiscountSum(discountSum.toFixed(2));
             setSpriceSum(priceSum.toFixed(2));
             setSMax(max);
             setSMin(min);
-            setSQuantity(quantity2);                          
-                
-        console.log("Use Effect in view 2 ended");              
-     },[MonthProductListView2])
+            quantity2.sort(function(a,b){return b.AvgPriceWithDiscount-a.AvgPriceWithDiscount});
+            setSQuantity(quantity2);
+            break;
+        case 1:            
+            console.log(SQuantity);
+            break;
+        case 2:            
+            console.log(SQuantity);
+            break;            
+
+        }
+        console.log("Use Effect in view 2 ended"); 
+                      
+     },[MonthProductListView2,SClicked])
+
+        let HandleButtWithDisc = () => { 
+            let quantity2 = SQuantity;
+            setSQuantity(quantity2.sort(function(a,b){return b.AvgPriceWithDiscount-a.AvgPriceWithDiscount}));            
+            setClicked(1);        
+        }
+
+        let HandleButtWithoutDisc = () => {
+            let quantity2 = SQuantity;
+            setSQuantity(quantity2.sort(function(a,b){return b.AvgPrice-a.AvgPrice}));
+            setClicked(2);        
+        } 
 
      
 
@@ -81,14 +118,28 @@ const View2 = ({ChosenMonth, ChosenYear, MonthProductListView2}) => {
         {MonthProductListView2 && 
         <div >
             <div className="title" id="borderScrew"><div className="space-left"></div>Statistics for {ChosenYear} {SMonth}th month:</div>
-            <div className="date-outline"> Least expensive product {Smin.min}  {Smin.name}</div>
-            <div className="date-outline"> Most expensive product  {Smax.max}  {Smax.name} </div>
-            <div className="date-outline"> Discount sum      {SdiscountSum} </div>
-            <div className="date-outline"> Product price sum  {SpriceSum}  </div>
+            <div className="title2 inline"> <h1>Price sum  {SpriceSum} </h1> </div>
+            <div className="title2 inline"> <h1>Discount sum  {SdiscountSum}</h1> </div>
+            <div className="title2 inline">sort by:<div className="space-left"></div>
+                <button onClick={HandleButtWithDisc}>with discount</button>   <button onClick={HandleButtWithoutDisc}>without discount</button>
+            </div>
+            <div className="view2-table"> Least expensive product {Smin.min}  {Smin.KeyName}</div>
+            <div className="view2-table"> Most expensive product  {Smax.max}  {Smax.KeyName} </div>
+            
+            
             {SQuantity && SQuantity.map(ProductName=>(
-                <div key={KeyID++}>
-                   <div className="date-outline"> Some products you bought more than once : {ProductName.name} : {ProductName.quantity} spent {ProductName.price} on them</div>
-                   <div className="date-outline"> On average you spend {ProductName.AvgPrice} per day for {ProductName.name}</div>
+                <div key={KeyID++} className="view2-table">
+                    <div className="clearfix">
+                        <div className="column50">  {ProductName.name} : {ProductName.quantity} vnt </div>
+                        <div className="column20left"> spent {ProductName.price}  </div>
+                        <div className="column28left">  {ProductName.AvgPrice} per day </div>
+                    </div>
+                    <div className="clearfix">
+                        <div className="column50">  with discount applied </div>
+                        <div className="column20left"> spent {ProductName.priceWithDiscount}  </div>
+                        <div className="column28left">  {ProductName.AvgPriceWithDiscount} per day </div>
+                    </div>
+                    
                 </div>
             ))}            
         </div>}

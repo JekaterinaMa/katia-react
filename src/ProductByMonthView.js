@@ -9,15 +9,25 @@ const ProductsByMonthView = ({ProductsByMonth}) => {
     
     ProductsByMonth.forEach(product => {
        if (DateSet[product.purchaseDate]) {
-        DateSet[product.purchaseDate] = [...DateSet[product.purchaseDate],{name: product.name, price: product.price, discount: product.discount, purchaseDate: product.purchaseDate}]       } 
+        DateSet[product.purchaseDate] = [...DateSet[product.purchaseDate],{KeyName: product.KeyName, AdditionalInf: product.AdditionalInf, price: product.price, discount: product.discount, purchaseDate: product.purchaseDate}]       } 
        else {
-        DateSet[product.purchaseDate] = [{name: product.name, price: product.price, discount: product.discount, purchaseDate: product.purchaseDate}];
+        DateSet[product.purchaseDate] = [{KeyName: product.KeyName, AdditionalInf: product.AdditionalInf, price: product.price, discount: product.discount, purchaseDate: product.purchaseDate}];
        }
     });
 
     for (let date in DateSet) {
         DateSetArray.push(date);
-    }    
+    } 
+    DateSetArray.sort(function(a,b){
+        let x = Number(a.split("-")[2]);
+        let y = Number(b.split("-")[2]);
+        if (x < y) {return -1;}
+        if (x > y) {return 1;}
+        return 0;
+    })
+
+    
+
    
     return ( 
         <div>            

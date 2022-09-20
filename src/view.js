@@ -70,7 +70,7 @@ const View = () => {
             </div> 
         
             <div>
-            {DayProductList && <ProductsByMonthView ProductsByMonth={MonthProductList}/>}   
+            {MonthProductList && <ProductsByMonthView ProductsByMonth={MonthProductList}/>}   
             </div>
         </div>
         <div className="column3">

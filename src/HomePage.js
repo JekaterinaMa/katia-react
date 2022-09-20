@@ -1,11 +1,16 @@
-const HomePage = () => {
+import data1 from "./data/data1.json";
+
+ 
+const HomePage = () => {     
+    
+
     return ( 
       <div>
         <div className="border1"></div>
     <div className="home">
       <h1>Welcome </h1>  
-        <div>to my Money tracking app, my friend :)</div>
-        
+        <div>to my Money tracking app, my friend </div>
+            
     </div>
     <div className="border2"></div>
     </div>

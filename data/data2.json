@@ -1,0 +1,5634 @@
+{
+  "products": [
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "gira smetoniska",
+      "quantity": "0.5",
+      "place": "rimi",
+      "price": "0.65",
+      "discount": "0.20",
+      "purchaseDate": "2022-7-1",
+      "id": 1
+    },
+    {
+      "KeyName": "energetinis gerimas",
+      "AdditionalInf": "monster",
+      "quantity": "0.5",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0.42",
+      "purchaseDate": "2022-7-1",
+      "id": 2
+    },
+    {
+      "KeyName": "energetinis gerimas",
+      "AdditionalInf": "monster",
+      "quantity": "0.5",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0.42",
+      "purchaseDate": "2022-7-1",
+      "id": 3
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "gira smetoniska",
+      "quantity": "0.5",
+      "place": "rimi",
+      "price": "0.65",
+      "discount": "0.20",
+      "purchaseDate": "2022-7-1",
+      "id": 4
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasa",
+      "quantity": "0.2",
+      "place": "rimi",
+      "price": "0.85",
+      "discount": "0.17",
+      "purchaseDate": "2022-7-1",
+      "id": 5
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasa",
+      "quantity": "0.2",
+      "place": "rimi",
+      "price": "0.85",
+      "discount": "0.17",
+      "purchaseDate": "2022-7-1",
+      "id": 6
+    },
+    {
+      "KeyName": "desra",
+      "AdditionalInf": "fuet espatec extra",
+      "quantity": "0.140",
+      "place": "rimi",
+      "price": "2.99",
+      "discount": "1.50",
+      "purchaseDate": "2022-7-1",
+      "id": 7
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "vilkyskiu",
+      "quantity": "1",
+      "place": "rimi",
+      "price": "1.69",
+      "discount": "0.34",
+      "purchaseDate": "2022-7-1",
+      "id": 8
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasa",
+      "quantity": "0.2",
+      "place": "rimi",
+      "price": "0.85",
+      "discount": "0.17",
+      "purchaseDate": "2022-7-1",
+      "id": 9
+    },
+    {
+      "KeyName": "braskes",
+      "AdditionalInf": "Lietuviskos",
+      "quantity": "0.450",
+      "place": "rimi",
+      "price": "4.29",
+      "discount": "1.30",
+      "purchaseDate": "2022-7-1",
+      "id": 10
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "dvaro",
+      "quantity": "1",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-1",
+      "id": 11
+    },
+    {
+      "KeyName": "misraine",
+      "AdditionalInf": "juru gerybiu uzkandis su marinotomis darzovemis",
+      "quantity": "0.326",
+      "place": "maxima",
+      "price": "4.87",
+      "discount": "1.46",
+      "purchaseDate": "2022-7-5",
+      "id": 12
+    },
+    {
+      "KeyName": "misraine",
+      "AdditionalInf": "namines salotos",
+      "quantity": "0.940",
+      "place": "maxima",
+      "price": "3.71",
+      "discount": "0.43",
+      "purchaseDate": "2022-7-5",
+      "id": 13
+    },
+    {
+      "KeyName": "kraikas",
+      "AdditionalInf": "silikagelio Klumpe",
+      "quantity": "3.8",
+      "place": "maxima",
+      "price": "4.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-5",
+      "id": 14
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "geriamasis vilkyskiu avieciu skonio",
+      "quantity": "0.750",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0.34",
+      "purchaseDate": "2022-7-5",
+      "id": 15
+    },
+    {
+      "KeyName": "sonine",
+      "AdditionalInf": "kiauliu paslepsniai",
+      "quantity": "0.448",
+      "place": "maxima",
+      "price": "1.43",
+      "discount": "0.22",
+      "purchaseDate": "2022-7-5",
+      "id": 16
+    },
+    {
+      "KeyName": "grietine",
+      "AdditionalInf": "zalioji karvute",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-7-5",
+      "id": 17
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "laisvai laikomu vistu Koko",
+      "quantity": "10",
+      "place": "maxima",
+      "price": "2.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-5",
+      "id": 18
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "vistienos kepsneliai cordon bleu mr tores su kumpiu ir suriu",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "4.69",
+      "discount": "0.94",
+      "purchaseDate": "2022-7-5",
+      "id": 19
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "nevirtos",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-5",
+      "id": 20
+    },
+    {
+      "KeyName": "kraikas",
+      "AdditionalInf": "silikagelio Klumpe",
+      "quantity": "3.8",
+      "place": "maxima",
+      "price": "4.99",
+      "discount": "1.50",
+      "purchaseDate": "2022-7-9",
+      "id": 21
+    },
+    {
+      "KeyName": "kraikas",
+      "AdditionalInf": "silikagelio Klumpe",
+      "quantity": "3.8",
+      "place": "maxima",
+      "price": "4.99",
+      "discount": "1.50",
+      "purchaseDate": "2022-7-9",
+      "id": 22
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "Vynuogiu Elemenhorster",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.29",
+      "discount": "0.60",
+      "purchaseDate": "2022-7-9",
+      "id": 23
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "mergaiciu kelnaites Friends",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "4.95",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 24
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "mergaiciu sortai",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "12.99",
+      "discount": "6.50",
+      "purchaseDate": "2022-7-9",
+      "id": 25
+    },
+    {
+      "KeyName": "lapai",
+      "AdditionalInf": "spinatai",
+      "quantity": "0.070",
+      "place": "maxima",
+      "price": "0.99",
+      "discount": "0.31",
+      "purchaseDate": "2022-7-9",
+      "id": 26
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "auksinis fermentinis riekelemis",
+      "quantity": "0.150",
+      "place": "maxima",
+      "price": "2.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 27
+    },
+    {
+      "KeyName": "mocarella",
+      "AdditionalInf": "Granarolo 3vnt",
+      "quantity": "0.300",
+      "place": "maxima",
+      "price": "3.69",
+      "discount": "1.70",
+      "purchaseDate": "2022-7-9",
+      "id": 28
+    },
+    {
+      "KeyName": "vytintas kumpis",
+      "AdditionalInf": "kiaulienos  Proscuitto crudo",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "14.99",
+      "discount": "7.50",
+      "purchaseDate": "2022-7-9",
+      "id": 29
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "ant kraiko Koko",
+      "quantity": "10",
+      "place": "maxima",
+      "price": "2.09",
+      "discount": "0.60",
+      "purchaseDate": "2022-7-9",
+      "id": 30
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "pols ",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.49",
+      "discount": "0.24",
+      "purchaseDate": "2022-7-9",
+      "id": 31
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "pols ",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.49",
+      "discount": "0.24",
+      "purchaseDate": "2022-7-9",
+      "id": 32
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens braskiu",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 33
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens braskiu",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 34
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens braskiu",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 35
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens braskiu",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 36
+    },
+    {
+      "KeyName": "kava",
+      "AdditionalInf": "aroma gold",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.99",
+      "discount": "1.60",
+      "purchaseDate": "2022-7-9",
+      "id": 37
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "misinys arimex",
+      "quantity": "0.300",
+      "place": "maxima",
+      "price": "5.39",
+      "discount": "2.70",
+      "purchaseDate": "2022-7-9",
+      "id": 38
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "misinys arimex",
+      "quantity": "0.300",
+      "place": "maxima",
+      "price": "5.39",
+      "discount": "2.70",
+      "purchaseDate": "2022-7-9",
+      "id": 39
+    },
+    {
+      "KeyName": "salotos",
+      "AdditionalInf": "guzines iceberg",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 40
+    },
+    {
+      "KeyName": "konservuoti agurkai",
+      "AdditionalInf": "marinuoti Kedainiu Geras vaizdelis",
+      "quantity": "0.660",
+      "place": "maxima",
+      "price": "1.75",
+      "discount": "0.56",
+      "purchaseDate": "2022-7-9",
+      "id": 41
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "kramtomosios gumos Pols",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.85",
+      "discount": "0.35",
+      "purchaseDate": "2022-7-9",
+      "id": 42
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "kramtomosios gumos Pols",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.85",
+      "discount": "0.35",
+      "purchaseDate": "2022-7-9",
+      "id": 43
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "su sausainiais ir pabarstukais Pols",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.85",
+      "discount": "0.35",
+      "purchaseDate": "2022-7-9",
+      "id": 44
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "su sausainiais ir pabarstukais Pols",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.85",
+      "discount": "0.35",
+      "purchaseDate": "2022-7-9",
+      "id": 45
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "cukraus vatos skonio Pols",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0.69",
+      "purchaseDate": "2022-7-9",
+      "id": 46
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "cukraus vatos skonio Pols",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0.69",
+      "purchaseDate": "2022-7-9",
+      "id": 47
+    },
+    {
+      "KeyName": "konservuoti agurkai",
+      "AdditionalInf": "marinuoti Kedainiu Geras vaizdelis",
+      "quantity": "0.660",
+      "place": "maxima",
+      "price": "1.75",
+      "discount": "0.56",
+      "purchaseDate": "2022-7-9",
+      "id": 48
+    },
+    {
+      "KeyName": "pomidoru padazas",
+      "AdditionalInf": " Kedainiu Natural",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.59",
+      "discount": "0.40",
+      "purchaseDate": "2022-7-9",
+      "id": 49
+    },
+    {
+      "KeyName": "tepamasis suris",
+      "AdditionalInf": "philadelphia milka su sokoladu",
+      "quantity": "0.175",
+      "place": "maxima",
+      "price": "2.15",
+      "discount": "0.36",
+      "purchaseDate": "2022-7-9",
+      "id": 50
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "nevirtos",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "1.75",
+      "purchaseDate": "2022-7-9",
+      "id": 51
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "nevirtos",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "1.75",
+      "purchaseDate": "2022-7-9",
+      "id": 52
+    },
+    {
+      "KeyName": "paprikos",
+      "AdditionalInf": "geltonos saldziosios",
+      "quantity": "0.190",
+      "place": "maxima",
+      "price": "0.70",
+      "discount": "0.17",
+      "purchaseDate": "2022-7-9",
+      "id": 53
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "geltoni",
+      "quantity": "1.136",
+      "place": "maxima",
+      "price": "1.58",
+      "discount": "0.80",
+      "purchaseDate": "2022-7-9",
+      "id": 54
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "lietuviski trumpavaisiai",
+      "quantity": "0.550",
+      "place": "maxima",
+      "price": "1.53",
+      "discount": "0.71",
+      "purchaseDate": "2022-7-9",
+      "id": 55
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "granny smith",
+      "quantity": "0.928",
+      "place": "maxima",
+      "price": "2.31",
+      "discount": "0",
+      "purchaseDate": "2022-7-9",
+      "id": 56
+    },
+    {
+      "KeyName": "greipfrutai",
+      "AdditionalInf": "mazi raudonieji",
+      "quantity": "1.490",
+      "place": "maxima",
+      "price": "2.22",
+      "discount": "0.36",
+      "purchaseDate": "2022-7-9",
+      "id": 57
+    },
+    {
+      "KeyName": "mesainis",
+      "AdditionalInf": "Big Mac Dideles bulvytes sprite 500",
+      "quantity": 1,
+      "place": "MacDonalds",
+      "price": "5.40",
+      "discount": "0",
+      "purchaseDate": "2022-7-6",
+      "id": 58
+    },
+    {
+      "KeyName": "mesainis",
+      "AdditionalInf": "MacDouble Dideles bulvytes coca-cola 500",
+      "quantity": 1,
+      "place": "MacDonalds",
+      "price": "3.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-6",
+      "id": 59
+    },
+    {
+      "KeyName": "mesainis",
+      "AdditionalInf": "chickenBurger",
+      "quantity": "2",
+      "place": "MacDonalds",
+      "price": "3.00",
+      "discount": "0",
+      "purchaseDate": "2022-7-6",
+      "id": 60
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "sumustiniu",
+      "quantity": "0.350",
+      "place": "rimi",
+      "price": "1.05",
+      "discount": "0.36",
+      "purchaseDate": "2022-7-12",
+      "id": 61
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "cinnabon",
+      "quantity": "0.080",
+      "place": "rimi",
+      "price": "0.83",
+      "discount": "0.18",
+      "purchaseDate": "2022-7-12",
+      "id": 62
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su rabarbaru ir braskiu idaru",
+      "quantity": "0.100",
+      "place": "rimi",
+      "price": "0.72",
+      "discount": "0.28",
+      "purchaseDate": "2022-7-12",
+      "id": 63
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "varskes spurga",
+      "quantity": "0.82",
+      "place": "rimi",
+      "price": "0.99",
+      "discount": "0.40",
+      "purchaseDate": "2022-7-12",
+      "id": 64
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "cinnabon",
+      "quantity": "0.080",
+      "place": "rimi",
+      "price": "0.83",
+      "discount": "0.18",
+      "purchaseDate": "2022-7-12",
+      "id": 65
+    },
+    {
+      "KeyName": "cillit Bang",
+      "AdditionalInf": "bleach",
+      "quantity": "0.750",
+      "place": "rimi",
+      "price": "6.75",
+      "discount": "2.23",
+      "purchaseDate": "2022-7-12",
+      "id": 66
+    },
+    {
+      "KeyName": "sausi pusryciai",
+      "AdditionalInf": "Rimi right balance",
+      "quantity": "0.250",
+      "place": "rimi",
+      "price": "1.65",
+      "discount": "0.46",
+      "purchaseDate": "2022-7-12",
+      "id": 67
+    },
+    {
+      "KeyName": "tresnes",
+      "AdditionalInf": "7.99 / 1 kg",
+      "quantity": "0.770",
+      "place": "rimi",
+      "price": "6.15",
+      "discount": "4.00",
+      "purchaseDate": "2022-7-12",
+      "id": 68
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "Dvaro",
+      "quantity": "1",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-12",
+      "id": 69
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "Rimi pomidoru padaze",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.34",
+      "purchaseDate": "2022-7-12",
+      "id": 70
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "Rimi pomidoru padaze",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.34",
+      "purchaseDate": "2022-7-12",
+      "id": 71
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "Rimi pomidoru padaze",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.34",
+      "purchaseDate": "2022-7-12",
+      "id": 72
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "geriamas vilkyskiu zemuogiu ",
+      "quantity": "0.330",
+      "place": "rimi",
+      "price": "1.05",
+      "discount": "0",
+      "purchaseDate": "2022-7-12",
+      "id": 73
+    },
+    {
+      "KeyName": "duona",
+      "AdditionalInf": "viso grudo rugine",
+      "quantity": "0.800",
+      "place": "rimi",
+      "price": "2.45",
+      "discount": "0",
+      "purchaseDate": "2022-7-12",
+      "id": 74
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "rasa",
+      "quantity": "0.200",
+      "place": "rimi",
+      "price": "0.85",
+      "discount": "0",
+      "purchaseDate": "2022-7-12",
+      "id": 75
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "nestle kit-kat chunky",
+      "quantity": "0.040",
+      "place": "rimi",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-7-12",
+      "id": 76
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "auksinis pjaustytas",
+      "quantity": "0.150",
+      "place": "rimi",
+      "price": "2.79",
+      "discount": "0.56",
+      "purchaseDate": "2022-7-12",
+      "id": 77
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "salta arbata ",
+      "quantity": "1.5",
+      "place": "iki",
+      "price": "1.50",
+      "discount": "0.45",
+      "purchaseDate": "2022-7-16",
+      "id": 78
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "glaistytas vanilinis plombyras",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 79
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "glaistytas vanilinis plombyras",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 80
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "glaistytas vanilinis plombyras",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 81
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "glaistytas vanilinis plombyras",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 82
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "valio atleet cheddar",
+      "quantity": "1",
+      "place": "iki",
+      "price": "2.55",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 83
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "magija",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 84
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "magija",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-16",
+      "id": 85
+    },
+    {
+      "KeyName": "mesa sumustiniams",
+      "AdditionalInf": "svelniai parukyta kalakutiena",
+      "quantity": "0.354",
+      "place": "iki",
+      "price": "5.31",
+      "discount": "1.06",
+      "purchaseDate": "2022-7-16",
+      "id": 86
+    },
+    {
+      "KeyName": "makaronai",
+      "AdditionalInf": "majora fusili",
+      "quantity": "0.500",
+      "place": "iki",
+      "price": "1.39",
+      "discount": "0.40",
+      "purchaseDate": "2022-7-16",
+      "id": 87
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "samsono pieniskos",
+      "quantity": "0.620",
+      "place": "iki",
+      "price": "5.79",
+      "discount": "2.03",
+      "purchaseDate": "2022-7-16",
+      "id": 88
+    },
+    {
+      "KeyName": "vynuoges",
+      "AdditionalInf": "besekles zaliosios",
+      "quantity": "1",
+      "place": "iki",
+      "price": "1.99",
+      "discount": "0.60",
+      "purchaseDate": "2022-7-16",
+      "id": 89
+    },
+    {
+      "KeyName": "persikai",
+      "AdditionalInf": "plokstieji parag",
+      "quantity": "1.055",
+      "place": "iki",
+      "price": "3.68",
+      "discount": "1.28",
+      "purchaseDate": "2022-7-16",
+      "id": 90
+    },
+    {
+      "KeyName": "ridikeliai",
+      "AdditionalInf": "rysulelis",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "0.69",
+      "discount": "0.24",
+      "purchaseDate": "2022-7-18",
+      "id": 91
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "petrazoles indelyje",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-18",
+      "id": 92
+    },
+    {
+      "KeyName": "nektarinai",
+      "AdditionalInf": "3.99/kg",
+      "quantity": "0.982",
+      "place": "maxima",
+      "price": "3.92",
+      "discount": "2.26",
+      "purchaseDate": "2022-7-18",
+      "id": 93
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "dziugas mix pizza tarkuotas",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "2.49",
+      "discount": "0.50",
+      "purchaseDate": "2022-7-18",
+      "id": 94
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "miau sokoladinis",
+      "quantity": "0.450",
+      "place": "maxima",
+      "price": "1.35",
+      "discount": "0.35",
+      "purchaseDate": "2022-7-18",
+      "id": 95
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "miau braskinis",
+      "quantity": "0.450",
+      "place": "maxima",
+      "price": "1.35",
+      "discount": "0.35",
+      "purchaseDate": "2022-7-18",
+      "id": 96
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "migdolai",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "5.49",
+      "discount": "2.80",
+      "purchaseDate": "2022-7-18",
+      "id": 97
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "migdolai",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "5.49",
+      "discount": "2.80",
+      "purchaseDate": "2022-7-18",
+      "id": 98
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "smetoniska gira",
+      "quantity": "1.5",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 99
+    },
+    {
+      "KeyName": "energetinis gerimas",
+      "AdditionalInf": "energetinis euphoria",
+      "quantity": "0.250",
+      "place": "rimi",
+      "price": "0.29",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 100
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "graikiska amfora",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "2.05",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 101
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "graikiska amfora",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "2.05",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 102
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.37",
+      "purchaseDate": "2022-7-17",
+      "id": 103
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.37",
+      "purchaseDate": "2022-7-17",
+      "id": 104
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.37",
+      "purchaseDate": "2022-7-17",
+      "id": 105
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "aurum su mangu",
+      "quantity": "0.150",
+      "place": "rimi",
+      "price": "1.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 106
+    },
+    {
+      "KeyName": "silke",
+      "AdditionalInf": "bajoriska silku file Edega",
+      "quantity": "0.320",
+      "place": "rimi",
+      "price": "2.89",
+      "discount": "0.58",
+      "purchaseDate": "2022-7-17",
+      "id": 107
+    },
+    {
+      "KeyName": "pomidoru padazas",
+      "AdditionalInf": "kedainiu Natural",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "1.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 108
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "krutineles Rimi",
+      "quantity": "1.052",
+      "place": "rimi",
+      "price": "6.30",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 109
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "ilgavaisis 1 vnt",
+      "quantity": "1",
+      "place": "rimi",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 110
+    },
+    {
+      "KeyName": "silke",
+      "AdditionalInf": "originalioji Edega",
+      "quantity": "0.200",
+      "place": "rimi",
+      "price": "2.49",
+      "discount": "0.50",
+      "purchaseDate": "2022-7-17",
+      "id": 111
+    },
+    {
+      "KeyName": "kepenys",
+      "AdditionalInf": "galviju",
+      "quantity": "0.483",
+      "place": "rimi",
+      "price": "1.44",
+      "discount": "0.33",
+      "purchaseDate": "2022-7-17",
+      "id": 112
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "vistiena kitaip",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-17",
+      "id": 113
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "rokiskio naminis",
+      "quantity": "0.9",
+      "place": "rimi",
+      "price": "1.35",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-17",
+      "id": 114
+    },
+    {
+      "KeyName": "pica",
+      "AdditionalInf": "mini picos Margherita",
+      "quantity": "0.360",
+      "place": "lidl",
+      "price": "2.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 115
+    },
+    {
+      "KeyName": "sausainiai",
+      "AdditionalInf": "klim",
+      "quantity": "0.200",
+      "place": "lidl",
+      "price": "1.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 116
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "zemes riesutu",
+      "quantity": "0.050",
+      "place": "lidl",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 117
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "kakavos ",
+      "quantity": "0.050",
+      "place": "lidl",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 118
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "lydytas riekelemis",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 119
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "vistu",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "2.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 120
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "L",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "1.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 121
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "radler avieciu ",
+      "quantity": "0.5",
+      "place": "lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 122
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "radler avieciu ",
+      "quantity": "0.5",
+      "place": "lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 123
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vaniliniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 124
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vaniliniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 125
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vaniliniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 126
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vaniliniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 127
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "sokoladiniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 128
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "sokoladiniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 129
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "sokoladiniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 130
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "sokoladiniai vafl puodelyje",
+      "quantity": "0.120",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 131
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "varskytes desertas",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 132
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "varskytes desertas",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 133
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "varskytes desertas",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 134
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "virtos vistienos file",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 135
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "vistienos desreliu rinkinys",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "2.89",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 136
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "broileriu blauzdeles",
+      "quantity": "0.945",
+      "place": "lidl",
+      "price": "1.88",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 137
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "ilgavaisis 1 vnt",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 138
+    },
+    {
+      "KeyName": "energetinis gerimas",
+      "AdditionalInf": "energetinis Kong Strong",
+      "quantity": "0.250",
+      "place": "lidl",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 139
+    },
+    {
+      "KeyName": "salotos",
+      "AdditionalInf": "lollo",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "1.29",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 140
+    },
+    {
+      "KeyName": "ridikeliai",
+      "AdditionalInf": "raudoni",
+      "quantity": "1",
+      "place": "lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 141
+    },
+    {
+      "KeyName": "pomidorai",
+      "AdditionalInf": "lietuviski 1.59/kg",
+      "quantity": "0.792",
+      "place": "lidl",
+      "price": "1.26",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 142
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "buenos dias",
+      "quantity": "1",
+      "place": "crustum",
+      "price": "1.15",
+      "discount": "0.58",
+      "purchaseDate": "2022-7-22",
+      "id": 143
+    },
+    {
+      "KeyName": "kava kavineje",
+      "AdditionalInf": "latte",
+      "quantity": "1",
+      "place": "crustum",
+      "price": "2.50",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 144
+    },
+    {
+      "KeyName": "kava kavineje",
+      "AdditionalInf": "latte",
+      "quantity": "1",
+      "place": "crustum",
+      "price": "2.50",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 145
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "olego",
+      "quantity": "1",
+      "place": "crustum",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 146
+    },
+    {
+      "KeyName": "slyvos",
+      "AdditionalInf": "melynosios lepotica 2.79/kg",
+      "quantity": "0.668",
+      "place": "maxima",
+      "price": "1.86",
+      "discount": "0.73",
+      "purchaseDate": "2022-7-22",
+      "id": 147
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "apelsinu Elemenhorster",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.49",
+      "discount": "0.40",
+      "purchaseDate": "2022-7-22",
+      "id": 148
+    },
+    {
+      "KeyName": "viesas transportas",
+      "AdditionalInf": "30 min bilietas",
+      "quantity": "10",
+      "place": "reitan convenience lithuania",
+      "price": "6.50",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 149
+    },
+    {
+      "KeyName": "katino konservai",
+      "AdditionalInf": "brit care ",
+      "quantity": "0.085",
+      "place": "e-zoo",
+      "price": "0.90",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 150
+    },
+    {
+      "KeyName": "katino konservai",
+      "AdditionalInf": "brit care ",
+      "quantity": "0.085",
+      "place": "e-zoo",
+      "price": "0.90",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 151
+    },
+    {
+      "KeyName": "katino konservai",
+      "AdditionalInf": "brit care ",
+      "quantity": "0.085",
+      "place": "e-zoo",
+      "price": "0.90",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 152
+    },
+    {
+      "KeyName": "katino konservai",
+      "AdditionalInf": "brit care ",
+      "quantity": "0.085",
+      "place": "e-zoo",
+      "price": "0.90",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 153
+    },
+    {
+      "KeyName": "katino konservai",
+      "AdditionalInf": "brit care ",
+      "quantity": "0.085",
+      "place": "e-zoo",
+      "price": "0.90",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 154
+    },
+    {
+      "KeyName": "katino konservai",
+      "AdditionalInf": "brit care ",
+      "quantity": "0.085",
+      "place": "e-zoo",
+      "price": "0.90",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 155
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "dvaro musu",
+      "quantity": "1",
+      "place": "iki",
+      "price": "1.65",
+      "discount": "0.33",
+      "purchaseDate": "2022-7-20",
+      "id": 156
+    },
+    {
+      "KeyName": "paploteliai",
+      "AdditionalInf": "traski duona su sezamu seklomis Clever",
+      "quantity": "0.250",
+      "place": "iki",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-20",
+      "id": 157
+    },
+    {
+      "KeyName": "vafliai",
+      "AdditionalInf": "selga citrinu skonio",
+      "quantity": "0.090",
+      "place": "iki",
+      "price": "0.75",
+      "discount": "0.26",
+      "purchaseDate": "2022-7-20",
+      "id": 158
+    },
+    {
+      "KeyName": "vafliai",
+      "AdditionalInf": "selga citrinu skonio",
+      "quantity": "0.090",
+      "place": "iki",
+      "price": "0.75",
+      "discount": "0.26",
+      "purchaseDate": "2022-7-20",
+      "id": 159
+    },
+    {
+      "KeyName": "uogos",
+      "AdditionalInf": "avietes",
+      "quantity": "0.125",
+      "place": "iki",
+      "price": "2.49",
+      "discount": "1.00",
+      "purchaseDate": "2022-7-20",
+      "id": 160
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "dvaro didelis",
+      "quantity": "2",
+      "place": "iki",
+      "price": "2.79",
+      "discount": "0.50",
+      "purchaseDate": "2022-7-20",
+      "id": 161
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "idared",
+      "quantity": "1.130",
+      "place": "iki",
+      "price": "1.12",
+      "discount": "0.57",
+      "purchaseDate": "2022-7-20",
+      "id": 162
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "senoliu zanavyku varskes keptas",
+      "quantity": "0.230",
+      "place": "iki",
+      "price": "2.49",
+      "discount": "0.50",
+      "purchaseDate": "2022-7-20",
+      "id": 163
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "marskineliai su kaktusais 134",
+      "quantity": "1",
+      "place": "pepco",
+      "price": "2.50",
+      "discount": "0",
+      "purchaseDate": "2022-7-21",
+      "id": 164
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "marskineliai su vaikiskais piesineliais 134",
+      "quantity": "1",
+      "place": "pepco",
+      "price": "2.50",
+      "discount": "0",
+      "purchaseDate": "2022-7-21",
+      "id": 165
+    },
+    {
+      "KeyName": "maiselis",
+      "AdditionalInf": "plastiko",
+      "quantity": "1",
+      "place": "pepco",
+      "price": "0.10",
+      "discount": "0",
+      "purchaseDate": "2022-7-21",
+      "id": 166
+    },
+    {
+      "KeyName": "granola",
+      "AdditionalInf": "pauluns ",
+      "quantity": "0.450",
+      "place": "iki",
+      "price": "5.99",
+      "discount": "1.80",
+      "purchaseDate": "2022-7-22",
+      "id": 167
+    },
+    {
+      "KeyName": "sausi pusryciai",
+      "AdditionalInf": "nestle cookie crisp",
+      "quantity": "0.625",
+      "place": "iki",
+      "price": "4.89",
+      "discount": "1.50",
+      "purchaseDate": "2022-7-22",
+      "id": 168
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "aguonine spurga su varske",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 169
+    },
+    {
+      "KeyName": "sausainiai",
+      "AdditionalInf": "oreo",
+      "quantity": "0.044",
+      "place": "iki",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 170
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "magija",
+      "quantity": "1",
+      "place": "iki",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-22",
+      "id": 171
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "gira smetoniska",
+      "quantity": "1.5",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 172
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "skrudinimo duona Toste",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "1.65",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 173
+    },
+    {
+      "KeyName": "vytinta mesa",
+      "AdditionalInf": "vytinta jautienos desra torrido",
+      "quantity": "0.070",
+      "place": "rimi",
+      "price": "3.39",
+      "discount": "0.85",
+      "purchaseDate": "2022-7-24",
+      "id": 174
+    },
+    {
+      "KeyName": "desra",
+      "AdditionalInf": "vytinta Klaipedos extra",
+      "quantity": "0.200",
+      "place": "rimi",
+      "price": "3.69",
+      "discount": "0.92",
+      "purchaseDate": "2022-7-24",
+      "id": 175
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "visciuku blauzdeles be sanariu Rimi Greatlife",
+      "quantity": "0.550",
+      "place": "rimi",
+      "price": "2.69",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 176
+    },
+    {
+      "KeyName": "grietine",
+      "AdditionalInf": "zalioji karvute 12%",
+      "quantity": "0.400",
+      "place": "rimi",
+      "price": "1.89",
+      "discount": "0.38",
+      "purchaseDate": "2022-7-24",
+      "id": 177
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "graikiska amfora",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "2.05",
+      "discount": "0.41",
+      "purchaseDate": "2022-7-24",
+      "id": 178
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "graikiska amfora",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "2.05",
+      "discount": "0.41",
+      "purchaseDate": "2022-7-24",
+      "id": 179
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "rokiskio naminis",
+      "quantity": "0.9",
+      "place": "rimi",
+      "price": "1.35",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 180
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "dvaro didelis",
+      "quantity": "2",
+      "place": "rimi",
+      "price": "2.95",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 181
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "lietuviski trumpavaisiai 2.99/kg",
+      "quantity": "0.435",
+      "place": "rimi",
+      "price": "1.30",
+      "discount": "0.65",
+      "purchaseDate": "2022-7-24",
+      "id": 182
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "magija",
+      "quantity": "0.045",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 183
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "magija",
+      "quantity": "0.045",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-24",
+      "id": 184
+    },
+    {
+      "KeyName": "silke",
+      "AdditionalInf": "file aliejuje su prieskoniais zigmas",
+      "quantity": "0.240",
+      "place": "rimi",
+      "price": "1.99",
+      "discount": "0.40",
+      "purchaseDate": "2022-7-24",
+      "id": 185
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze rimi",
+      "quantity": "0.185",
+      "place": "rimi",
+      "price": "1.85",
+      "discount": "0.37",
+      "purchaseDate": "2022-7-24",
+      "id": 186
+    },
+    {
+      "KeyName": "traskuciai",
+      "AdditionalInf": "pringles original",
+      "quantity": "0.165",
+      "place": "rimi",
+      "price": "2.29",
+      "discount": "0.69",
+      "purchaseDate": "2022-7-24",
+      "id": 187
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladu",
+      "quantity": "0.085",
+      "place": "rimi",
+      "price": "0.68",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-24",
+      "id": 188
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladu",
+      "quantity": "0.085",
+      "place": "rimi",
+      "price": "0.68",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-24",
+      "id": 189
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladu",
+      "quantity": "0.085",
+      "place": "rimi",
+      "price": "0.68",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-24",
+      "id": 190
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladu",
+      "quantity": "0.085",
+      "place": "rimi",
+      "price": "0.68",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-24",
+      "id": 191
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su cinamonu",
+      "quantity": "0.070",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0.23",
+      "purchaseDate": "2022-7-24",
+      "id": 192
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su cinamonu",
+      "quantity": "0.070",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0.23",
+      "purchaseDate": "2022-7-24",
+      "id": 193
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "elemenhorster",
+      "quantity": "2",
+      "place": "rimi",
+      "price": "1.99",
+      "discount": "0.30",
+      "purchaseDate": "2022-7-26",
+      "id": 194
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "smetoniska gira",
+      "quantity": "1.5",
+      "place": "rimi",
+      "price": "1.39",
+      "discount": "0.42",
+      "purchaseDate": "2022-7-26",
+      "id": 195
+    },
+    {
+      "KeyName": "krevetes",
+      "AdditionalInf": "suryme rimi",
+      "quantity": "0.180",
+      "place": "rimi",
+      "price": "3.29",
+      "discount": "0",
+      "purchaseDate": "2022-7-26",
+      "id": 196
+    },
+    {
+      "KeyName": "energetinis gerimas",
+      "AdditionalInf": "monster energy su saldikliu",
+      "quantity": "0.5",
+      "place": "rimi",
+      "price": "1.45",
+      "discount": "0",
+      "purchaseDate": "2022-7-26",
+      "id": 197
+    },
+    {
+      "KeyName": "sausainiai",
+      "AdditionalInf": "selga sokoladiniai",
+      "quantity": "0.180",
+      "place": "rimi",
+      "price": "0.87",
+      "discount": "0.22",
+      "purchaseDate": "2022-7-26",
+      "id": 198
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "gira smetoniska skardineje",
+      "quantity": "0.5",
+      "place": "rimi",
+      "price": "0.65",
+      "discount": "0.20",
+      "purchaseDate": "2022-7-26",
+      "id": 199
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "fetos Olympus",
+      "quantity": "0.150",
+      "place": "rimi",
+      "price": "2.95",
+      "discount": "0",
+      "purchaseDate": "2022-7-26",
+      "id": 200
+    },
+    {
+      "KeyName": "kava",
+      "AdditionalInf": "Jakobs",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "8.59",
+      "discount": "0",
+      "purchaseDate": "2022-7-26",
+      "id": 201
+    },
+    {
+      "KeyName": "duona",
+      "AdditionalInf": "viso grudo rugine",
+      "quantity": "0.800",
+      "place": "rimi",
+      "price": "2.45",
+      "discount": "0",
+      "purchaseDate": "2022-7-26",
+      "id": 202
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladu",
+      "quantity": "0.085",
+      "place": "rimi",
+      "price": "0.68",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-26",
+      "id": 203
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladu",
+      "quantity": "0.085",
+      "place": "rimi",
+      "price": "0.68",
+      "discount": "0.27",
+      "purchaseDate": "2022-7-26",
+      "id": 204
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "marcipaninis sukutis",
+      "quantity": "0.065",
+      "place": "rimi",
+      "price": "0.55",
+      "discount": "0.22",
+      "purchaseDate": "2022-7-26",
+      "id": 205
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su cinamonu",
+      "quantity": "0.070",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0.24",
+      "purchaseDate": "2022-7-26",
+      "id": 206
+    },
+    {
+      "KeyName": "nikotinas",
+      "AdditionalInf": "whoop",
+      "quantity": "1",
+      "place": "reitan convenience lithuania",
+      "price": "6.50",
+      "discount": "0",
+      "purchaseDate": "2022-7-26",
+      "id": 207
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "striuke nuo lietaus",
+      "quantity": "1",
+      "place": "armijai ir civiliams",
+      "price": "55.00",
+      "discount": "11.00",
+      "purchaseDate": "2022-7-30",
+      "id": 208
+    },
+    {
+      "KeyName": "vyriski drabuziai",
+      "AdditionalInf": "kepure helik",
+      "quantity": "1",
+      "place": "armijai ir civiliams",
+      "price": "6.00",
+      "discount": "1.20",
+      "purchaseDate": "2022-7-30",
+      "id": 209
+    },
+    {
+      "KeyName": "moteriski  drabuziai",
+      "AdditionalInf": "galvos apdangalas",
+      "quantity": "1",
+      "place": "armijai ir civiliams",
+      "price": "3.50",
+      "discount": "0.70",
+      "purchaseDate": "2022-7-30",
+      "id": 210
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "dvaro didelis",
+      "quantity": "2",
+      "place": "maxima",
+      "price": "2.69",
+      "discount": "0.30",
+      "purchaseDate": "2022-7-30",
+      "id": 211
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "alaus kokteilis Classic kriausiu skonio 6%",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 212
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "sidras braskiu skonio Geras skonis",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 213
+    },
+    {
+      "KeyName": "aliejus",
+      "AdditionalInf": "obelu rapsu",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "3.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 214
+    },
+    {
+      "KeyName": "saldus kukuruzai",
+      "AdditionalInf": "Dino braskiu skonio",
+      "quantity": "0.170",
+      "place": "maxima",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 215
+    },
+    {
+      "KeyName": "makaronai",
+      "AdditionalInf": "barilla fusilli sraigteliai",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.65",
+      "discount": "0.58",
+      "purchaseDate": "2022-7-30",
+      "id": 216
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "elemenhorster",
+      "quantity": "2",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0.50",
+      "purchaseDate": "2022-7-30",
+      "id": 217
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "laisvai laikomu vistu Favorit",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.19",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 218
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "sparnu vidurines dalys",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "2.79",
+      "discount": "1.90",
+      "purchaseDate": "2022-7-30",
+      "id": 219
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "sparnu vidurines dalys",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "2.79",
+      "discount": "1.90",
+      "purchaseDate": "2022-7-30",
+      "id": 220
+    },
+    {
+      "KeyName": "brokolis",
+      "AdditionalInf": "1 vnt",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 221
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "noris jautienos skonio",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 222
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "noris jautienos skonio",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 223
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "noris vistienos skonio",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 224
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "in taste vistienos",
+      "quantity": "0.065",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0.12",
+      "purchaseDate": "2022-7-30",
+      "id": 225
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "in taste vistienos",
+      "quantity": "0.065",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0.12",
+      "purchaseDate": "2022-7-30",
+      "id": 226
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "in taste vistienos",
+      "quantity": "0.065",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0.12",
+      "purchaseDate": "2022-7-30",
+      "id": 227
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "lietuviski trumpavaisiai 2.69/kg",
+      "quantity": "0.650",
+      "place": "maxima",
+      "price": "1.75",
+      "discount": "0.46",
+      "purchaseDate": "2022-7-30",
+      "id": 228
+    },
+    {
+      "KeyName": "kakava",
+      "AdditionalInf": "beatos virtuve ekologiska",
+      "quantity": "0.150",
+      "place": "maxima",
+      "price": "2.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 229
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "champion fasuoti 0.79/kg",
+      "quantity": "2.018",
+      "place": "maxima",
+      "price": "1.59",
+      "discount": "0.28",
+      "purchaseDate": "2022-7-30",
+      "id": 230
+    },
+    {
+      "KeyName": "greipfrutai",
+      "AdditionalInf": "mazi raudonieji 1.49/kg",
+      "quantity": "0.648",
+      "place": "maxima",
+      "price": "0.97",
+      "discount": "0.26",
+      "purchaseDate": "2022-7-30",
+      "id": 231
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "blyneliai lietiniai kumpio ir surio idaru Kitchen mood",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 232
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "blyneliai lietiniai su mesa Kitchen mood",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "1.09",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 233
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "mocarelos Luciano",
+      "quantity": "0.210",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 234
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "zuvu file kepsneliai 12 vnt Fish port",
+      "quantity": "0.220",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 235
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "mocarelos Luciano",
+      "quantity": "0.210",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 236
+    },
+    {
+      "KeyName": "saldintas sutirstintas pienas",
+      "AdditionalInf": "rokiskio",
+      "quantity": "0.397",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 237
+    },
+    {
+      "KeyName": "vytintas kumpis",
+      "AdditionalInf": "kiaulienos proscuitto crudo",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "14.99",
+      "discount": "7.50",
+      "purchaseDate": "2022-7-30",
+      "id": 238
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "smulkinta rieb 20% 5.99/kg",
+      "quantity": "0.946",
+      "place": "maxima",
+      "price": "5.67",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 239
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "kumpis romsteksams 9.99/kg",
+      "quantity": "0.926",
+      "place": "maxima",
+      "price": "9.25",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 240
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "sventinis riesutu ir uogu misinys arimex",
+      "quantity": "0.300",
+      "place": "maxima",
+      "price": "3.69",
+      "discount": "1.70",
+      "purchaseDate": "2022-7-30",
+      "id": 241
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "raudonasis chederio Cheese world 12.59/kg",
+      "quantity": "0.254",
+      "place": "maxima",
+      "price": "3.20",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 242
+    },
+    {
+      "KeyName": "paprikos",
+      "AdditionalInf": "geltonos saldziosios 3.49/kg",
+      "quantity": "0.204",
+      "place": "maxima",
+      "price": "0.71",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 243
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "nevirtos",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 244
+    },
+    {
+      "KeyName": "batatai",
+      "AdditionalInf": "2.39/kg",
+      "quantity": "1.034",
+      "place": "maxima",
+      "price": "2.47",
+      "discount": "0",
+      "purchaseDate": "2022-7-30",
+      "id": 245
+    },
+    {
+      "KeyName": "Hesburger",
+      "AdditionalInf": "Mesainis",
+      "quantity": 1,
+      "place": "Hesburger",
+      "price": "5.80",
+      "discount": "0",
+      "purchaseDate": "2022-5-1",
+      "id": 246
+    },
+    {
+      "KeyName": "Hesburger",
+      "AdditionalInf": "Vistienos krepselis",
+      "quantity": 1,
+      "place": "Hesburger",
+      "price": "3.00",
+      "discount": "0",
+      "purchaseDate": "2022-5-1",
+      "id": 247
+    },
+    {
+      "KeyName": "Hesburger",
+      "AdditionalInf": "mesainis",
+      "quantity": 1,
+      "place": "Hesburger",
+      "price": "3.30",
+      "discount": "0",
+      "purchaseDate": "2022-5-1",
+      "id": 248
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "Miegmaisio ideklas, pilkas",
+      "quantity": 1,
+      "place": "Decathlon",
+      "price": "7.50",
+      "discount": "0.00",
+      "purchaseDate": "2022-7-31",
+      "id": 249
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "Kelnes 4170012 TREK 500",
+      "quantity": 1,
+      "place": "Decathlon",
+      "price": "28.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-7-31",
+      "id": 250
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "Skirt 4461213 blue",
+      "quantity": 1,
+      "place": "Decathlon",
+      "price": "13.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-7-31",
+      "id": 251
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "boxing Shorts",
+      "quantity": 1,
+      "place": "Decathlon",
+      "price": "14.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-7-31",
+      "id": 252
+    },
+    {
+      "KeyName": "daiktai sportui",
+      "AdditionalInf": "Speed Rope 2943664",
+      "quantity": 1,
+      "place": "Decathlon",
+      "price": "19.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-7-31",
+      "id": 253
+    },
+    {
+      "KeyName": "daiktai sportui",
+      "AdditionalInf": "Boxing AIR sticks 4302407",
+      "quantity": 1,
+      "place": "Decathlon",
+      "price": "19.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-7-31",
+      "id": 254
+    },
+    {
+      "KeyName": "daiktai",
+      "AdditionalInf": "kuprine maza",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "4.00",
+      "discount": "0",
+      "purchaseDate": "2022-8-20",
+      "id": 255
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "running top bra M",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "4.60",
+      "discount": "0",
+      "purchaseDate": "2022-8-20",
+      "id": 256
+    },
+    {
+      "KeyName": "moteriski drabuziai",
+      "AdditionalInf": "running top bra S",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "4.60",
+      "discount": "0",
+      "purchaseDate": "2022-8-20",
+      "id": 257
+    },
+    {
+      "KeyName": "vyriski drabuziai",
+      "AdditionalInf": "Kelnes Trek 500 4153442",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "28.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-8-20",
+      "id": 258
+    },
+    {
+      "KeyName": "vyriski drabuziai",
+      "AdditionalInf": "RUN900 thick mid 21 black socks 4172610",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "7.50",
+      "discount": "0.00",
+      "purchaseDate": "2022-8-20",
+      "id": 259
+    },
+    {
+      "KeyName": "vyriski drabuziai",
+      "AdditionalInf": "merinosu vilnos ilgarankoviai marskiniai",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "45.00",
+      "discount": "0.00",
+      "purchaseDate": "2022-8-20",
+      "id": 260
+    },
+    {
+      "KeyName": "daiktai",
+      "AdditionalInf": "kuprine compact blue travel",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "2.80",
+      "discount": "0.00",
+      "purchaseDate": "2022-8-20",
+      "id": 261
+    },
+    {
+      "KeyName": "daiktai",
+      "AdditionalInf": "Kelionine kepure Voyage 500",
+      "quantity": 1,
+      "place": "decathlon",
+      "price": "7.50",
+      "discount": "0.00",
+      "purchaseDate": "2022-8-20",
+      "id": 262
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "Rokiskio",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "1.29",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-19",
+      "id": 263
+    },
+    {
+      "KeyName": "kava",
+      "AdditionalInf": "Aroma Gold",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "8.49",
+      "discount": "4.00",
+      "purchaseDate": "2022-8-19",
+      "id": 264
+    },
+    {
+      "KeyName": "pomidoru padazas",
+      "AdditionalInf": "Kedainiu Natural",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "1.89",
+      "discount": "0.47",
+      "purchaseDate": "2022-8-19",
+      "id": 265
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "smulkinta",
+      "quantity": "0.742",
+      "place": "maxima",
+      "price": "5.19",
+      "discount": "0",
+      "purchaseDate": "2022-8-19",
+      "id": 266
+    },
+    {
+      "KeyName": "salotos",
+      "AdditionalInf": "vazonelyje Lollo",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-19",
+      "id": 267
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "ant kraiko KOKO",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.09",
+      "discount": "0.60",
+      "purchaseDate": "2022-8-19",
+      "id": 268
+    },
+    {
+      "KeyName": "energetinis gerimas",
+      "AdditionalInf": "Hell",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-19",
+      "id": 269
+    },
+    {
+      "KeyName": "ridikeliai",
+      "AdditionalInf": "rysulelis",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.69",
+      "discount": "0.40",
+      "purchaseDate": "2022-8-19",
+      "id": 270
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "rokiskio",
+      "quantity": "0.240",
+      "place": "maxima",
+      "price": "2.59",
+      "discount": "1.10",
+      "purchaseDate": "2022-8-19",
+      "id": 271
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "rokiskio",
+      "quantity": "0.240",
+      "place": "maxima",
+      "price": "2.59",
+      "discount": "1.10",
+      "purchaseDate": "2022-8-19",
+      "id": 272
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "lietuviski trumpavaisiai",
+      "quantity": "0.908",
+      "place": "maxima",
+      "price": "2.26",
+      "discount": "1.36",
+      "purchaseDate": "2022-8-19",
+      "id": 273
+    },
+    {
+      "KeyName": "morkos",
+      "AdditionalInf": "plautos Lietuviskos",
+      "quantity": "0.986",
+      "place": "maxima",
+      "price": "0.68",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-19",
+      "id": 274
+    },
+    {
+      "KeyName": "vynuoges",
+      "AdditionalInf": "zaliosios besekles",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0.70",
+      "purchaseDate": "2022-8-19",
+      "id": 275
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "kelnes puma zydros velvetines",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "12.99",
+      "discount": "3.00",
+      "purchaseDate": "2022-8-19",
+      "id": 276
+    },
+    {
+      "KeyName": "ikrai",
+      "AdditionalInf": " lasisiniu zuvu",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "11.99",
+      "discount": "5.00",
+      "purchaseDate": "2022-8-19",
+      "id": 277
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-19",
+      "id": 278
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-19",
+      "id": 279
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-19",
+      "id": 280
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-19",
+      "id": 281
+    },
+    {
+      "KeyName": "sausainiai",
+      "AdditionalInf": " Selga citrininiai",
+      "quantity": "0.180",
+      "place": "maxima",
+      "price": "0.85",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-19",
+      "id": 282
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "kelnaites",
+      "quantity": "5",
+      "place": "maxima",
+      "price": "7.99",
+      "discount": "3.00",
+      "purchaseDate": "2022-8-19",
+      "id": 283
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "marskineliai mergaitiski Puma",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "12.99",
+      "discount": "3.00",
+      "purchaseDate": "2022-8-19",
+      "id": 284
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "alus vilkmerges",
+      "quantity": "4",
+      "place": "maxima",
+      "price": "4.69",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 285
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "alus Volfo engelmann balta pinta",
+      "quantity": "4",
+      "place": "maxima",
+      "price": "5.39",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 286
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "Elemenhorster",
+      "quantity": "2",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 287
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "Elemenhorster",
+      "quantity": "2",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 288
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 289
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 290
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 291
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 292
+    },
+    {
+      "KeyName": "Energetinis gerimas",
+      "AdditionalInf": "RB Summer",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.39",
+      "discount": "0.40",
+      "purchaseDate": "2022-6-27",
+      "id": 293
+    },
+    {
+      "KeyName": "Energetinis gerimas",
+      "AdditionalInf": "Red Bull Yellow",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.39",
+      "discount": "0.40",
+      "purchaseDate": "2022-6-27",
+      "id": 294
+    },
+    {
+      "KeyName": "Energetinis gerimas",
+      "AdditionalInf": "Red Bull Red",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.39",
+      "discount": "0.40",
+      "purchaseDate": "2022-6-27",
+      "id": 295
+    },
+    {
+      "KeyName": "Energetinis gerimas",
+      "AdditionalInf": "Red Bull Red",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.39",
+      "discount": "0.40",
+      "purchaseDate": "2022-6-27",
+      "id": 296
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "su zolelemis (nevirtos)",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 297
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "su zolelemis (nevirtos)",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 298
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "vynas baltas sausas Kumala Cape",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "5.49",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 299
+    },
+    {
+      "KeyName": "braskes",
+      "AdditionalInf": "Linkejimai is kaimo",
+      "quantity": "0.450",
+      "place": "maxima",
+      "price": "4.49",
+      "discount": "1.50",
+      "purchaseDate": "2022-6-27",
+      "id": 300
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "svogunu laiskai",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 301
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "desreles pik-nik",
+      "quantity": "0.160",
+      "place": "maxima",
+      "price": "2.59",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 302
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "desreles pik-nik",
+      "quantity": "0.160",
+      "place": "maxima",
+      "price": "2.59",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 303
+    },
+    {
+      "KeyName": "ryziai",
+      "AdditionalInf": "basmati Himalayan Crown",
+      "quantity": "0.800",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 304
+    },
+    {
+      "KeyName": "makaronai",
+      "AdditionalInf": " AL Dente (sraigteliai)",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 305
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "pistacijos kepintos ir sudytos",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "9.99",
+      "discount": "4.50",
+      "purchaseDate": "2022-6-27",
+      "id": 306
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "1.39/kg",
+      "quantity": "0.714",
+      "place": "maxima",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 307
+    },
+    {
+      "KeyName": "bulves",
+      "AdditionalInf": "mazosios bulvytes",
+      "quantity": "0.600",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 308
+    },
+    {
+      "KeyName": "bulves",
+      "AdditionalInf": "mazosios bulvytes",
+      "quantity": "0.600",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 309
+    },
+    {
+      "KeyName": "bulves",
+      "AdditionalInf": "mazosios bulvytes",
+      "quantity": "0.600",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 310
+    },
+    {
+      "KeyName": "greipfrutai",
+      "AdditionalInf": "dideli raudonieji 1.99/kg",
+      "quantity": "1.516",
+      "place": "maxima",
+      "price": "3.02",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 311
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "kasdiene italiska duona ciabatta",
+      "quantity": "0.320",
+      "place": "maxima",
+      "price": "1.00",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 312
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "Dryzuotos saulegrazos YES",
+      "quantity": 0.15,
+      "place": "maxima",
+      "price": "1.19",
+      "discount": "0.30",
+      "purchaseDate": "2022-6-27",
+      "id": 313
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "misinys Dziugas mix salad",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "2.59",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 314
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "Golden",
+      "quantity": "0.922",
+      "place": "maxima",
+      "price": "1.83",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 315
+    },
+    {
+      "KeyName": "citrinos",
+      "AdditionalInf": "zaliosios 3.50/kg",
+      "quantity": "0.278",
+      "place": "maxima",
+      "price": "0.97",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 316
+    },
+    {
+      "KeyName": "paprikos",
+      "AdditionalInf": "raudonos 3.50/kg",
+      "quantity": "0.450",
+      "place": "maxima",
+      "price": "1.57",
+      "discount": "0.40",
+      "purchaseDate": "2022-6-27",
+      "id": 317
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "rausvieji 1.10/kg ",
+      "quantity": "0.254",
+      "place": "maxima",
+      "price": "0.28",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 318
+    },
+    {
+      "KeyName": "cesnakai",
+      "AdditionalInf": "3.90/kg ",
+      "quantity": "0.066",
+      "place": "maxima",
+      "price": "0.26",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 319
+    },
+    {
+      "KeyName": "sviestas",
+      "AdditionalInf": "Dvaro",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "2.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 320
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "petrazoles",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 321
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "fasuoti ciobreliai Tasty home",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 322
+    },
+    {
+      "KeyName": "prieskoniai",
+      "AdditionalInf": "maltos saldziosios paprikos Saldva",
+      "quantity": 0.025,
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.18",
+      "purchaseDate": "2022-6-27",
+      "id": 323
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "fasuoti rozmarinai Tasty home",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 324
+    },
+    {
+      "KeyName": "prieskoniai",
+      "AdditionalInf": "malti juodieji pipirai Saldva",
+      "quantity": "0.025",
+      "place": "maxima",
+      "price": "0.95",
+      "discount": "0.29",
+      "purchaseDate": "2022-6-27",
+      "id": 325
+    },
+    {
+      "KeyName": "sultinys kubeliais",
+      "AdditionalInf": "ekolgiskas vistienos Maggi",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0.50",
+      "purchaseDate": "2022-6-27",
+      "id": 326
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "atsaldyta Lietuviska nugarine be kaulu",
+      "quantity": "1.076",
+      "place": "maxima",
+      "price": "11.83",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 327
+    },
+    {
+      "KeyName": "pomidorai",
+      "AdditionalInf": "smulkiavaisiai slyviniai fasuoti",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "2.49",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 328
+    },
+    {
+      "KeyName": "pomidorai",
+      "AdditionalInf": "smulkiavaisiai slyviniai fasuoti",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "2.49",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 329
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "Likeris Baileys",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "12.99",
+      "discount": "0",
+      "purchaseDate": "2022-6-27",
+      "id": 330
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "1.39/kg --> 0.88/kg",
+      "quantity": "1.182",
+      "place": "maxima",
+      "price": "1.64",
+      "discount": "0.59",
+      "purchaseDate": "2022-5-19",
+      "id": 331
+    },
+    {
+      "KeyName": "konservuoti pomidorai",
+      "AdditionalInf": "smulkinti Mega Di Cato",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 332
+    },
+    {
+      "KeyName": "konservuoti pomidorai",
+      "AdditionalInf": "smulkinti Mega Di Cato",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 333
+    },
+    {
+      "KeyName": "konservuoti pomidorai",
+      "AdditionalInf": "smulkinti Mega Di Cato",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 334
+    },
+    {
+      "KeyName": "konservuoti pomidorai",
+      "AdditionalInf": "smulkinti Mega Di Cato",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 335
+    },
+    {
+      "KeyName": "grietine",
+      "AdditionalInf": "zalioji karvute 12%",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 336
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "Dvaro didelis",
+      "quantity": "2",
+      "place": "maxima",
+      "price": "2.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 337
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "Golden 1.99/kg",
+      "quantity": "0.562",
+      "place": "maxima",
+      "price": "1.12",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 338
+    },
+    {
+      "KeyName": "pomidorai",
+      "AdditionalInf": "lietuviski 2.99/kg --> 1.99/kg",
+      "quantity": "1.082",
+      "place": "maxima",
+      "price": "3.24",
+      "discount": "1.09",
+      "purchaseDate": "2022-5-19",
+      "id": 339
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "0.48/kg",
+      "quantity": "1.552",
+      "place": "maxima",
+      "price": "0.75",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 340
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "svogunu laiskai ir krapai",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 341
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "petrazoles fasuotos",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 342
+    },
+    {
+      "KeyName": "koldunai",
+      "AdditionalInf": "karaliskieji Liutukas",
+      "quantity": "0.800",
+      "place": "maxima",
+      "price": "5.69",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 343
+    },
+    {
+      "KeyName": "salieru stiebas",
+      "AdditionalInf": "...",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.39",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 344
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "ilgasis prancuziskas",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "0.55",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 345
+    },
+    {
+      "KeyName": "lasisa",
+      "AdditionalInf": "sveriama 17.48/kg",
+      "quantity": "0.612",
+      "place": "maxima",
+      "price": "10.70",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 346
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "brazilines bertoletijos Sunny fruitown",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "3.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 347
+    },
+    {
+      "KeyName": "pomidoru padazas",
+      "AdditionalInf": "pasta mutty double concentrated",
+      "quantity": "0.130",
+      "place": "maxima",
+      "price": "1.39",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 348
+    },
+    {
+      "KeyName": "prieskoniai",
+      "AdditionalInf": "juodieji pipirai sauda zirneliai",
+      "quantity": "0.100",
+      "place": "maxima",
+      "price": "1.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 349
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "Rokiskio Gouda riekelemis",
+      "quantity": "0.150",
+      "place": "maxima",
+      "price": "1.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 350
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "gardesio sumustiniu duona su kefyru",
+      "quantity": "0.450",
+      "place": "maxima",
+      "price": "1.55",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 351
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "virtos jokiu E su vit D",
+      "quantity": "0.210",
+      "place": "maxima",
+      "price": "2.29",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 352
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "virtos jokiu E su vit D",
+      "quantity": "0.210",
+      "place": "maxima",
+      "price": "2.29",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 353
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "saldytos darzoves wok spicy findus",
+      "quantity": "0.325",
+      "place": "maxima",
+      "price": "2.09",
+      "discount": "0.44",
+      "purchaseDate": "2022-5-19",
+      "id": 354
+    },
+    {
+      "KeyName": "morkos",
+      "AdditionalInf": "plautos 0.49/kg",
+      "quantity": "1.658",
+      "place": "maxima",
+      "price": "0.81",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 355
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "Koko ant kraiko",
+      "quantity": "10",
+      "place": "maxima",
+      "price": "2.09",
+      "discount": "0.80",
+      "purchaseDate": "2022-5-19",
+      "id": 356
+    },
+    {
+      "KeyName": "cesnakai",
+      "AdditionalInf": "3.98/kg",
+      "quantity": "0.088",
+      "place": "maxima",
+      "price": "0.35",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 357
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "rausvieji 0.89/kg",
+      "quantity": "0.112",
+      "place": "maxima",
+      "price": "0.10",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 358
+    },
+    {
+      "KeyName": "padazas",
+      "AdditionalInf": "pesto Filippo Berio",
+      "quantity": "0.190",
+      "place": "maxima",
+      "price": "2.09",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 359
+    },
+    {
+      "KeyName": "vytintas kumpis",
+      "AdditionalInf": "kiaulienos Parmos Raspini",
+      "quantity": "0.070",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 360
+    },
+    {
+      "KeyName": "pievagrybiai",
+      "AdditionalInf": " Baltic Champignons Portabela",
+      "quantity": "0.280",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 361
+    },
+    {
+      "KeyName": "vytintas kumpis",
+      "AdditionalInf": "kiaulienos Parmos Raspini",
+      "quantity": "0.070",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 362
+    },
+    {
+      "KeyName": "sumustiniu mesa",
+      "AdditionalInf": "Karstai rukyta pjaustyta vistu krutinele",
+      "quantity": "0.090",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 363
+    },
+    {
+      "KeyName": "konservuoti pomidorai",
+      "AdditionalInf": "pomidoru tyre le conserve della nonna lampodoro",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.59",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 364
+    },
+    {
+      "KeyName": "konservuoti pomidorai",
+      "AdditionalInf": "pomidoru tyre le conserve della nonna lampodoro",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.59",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 365
+    },
+    {
+      "KeyName": "sumustiniu mesa",
+      "AdditionalInf": "karstai rukyta Klaipedos kiaulienos nugarine",
+      "quantity": "0.130",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 366
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.65",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 367
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.65",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 368
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "gerimas Graikiska amfora su apelsinais",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 369
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "atsaldyta lietuviska nugarine be kaulu",
+      "quantity": "0.994",
+      "place": "maxima",
+      "price": "10.92",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 370
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "atsaldyta lietuviska nugarine be kaulu",
+      "quantity": "1.092",
+      "place": "maxima",
+      "price": "12.00",
+      "discount": "0",
+      "purchaseDate": "2022-5-19",
+      "id": 371
+    },
+    {
+      "KeyName": "daiktai masinai",
+      "AdditionalInf": "vasarinis langu plovimo skystis Vysnia masinai",
+      "quantity": 1,
+      "place": "Ermitazas",
+      "price": "2.49",
+      "discount": "0",
+      "purchaseDate": "2022-04-30",
+      "id": 372
+    },
+    {
+      "KeyName": "geles",
+      "AdditionalInf": "lauko augalas Naslaite Viola",
+      "quantity": 1,
+      "place": "Ermitazas",
+      "price": "0.99",
+      "discount": "0.50",
+      "purchaseDate": "2022-4-30",
+      "id": 373
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "Vilkyskiu",
+      "quantity": 1,
+      "place": "Rimi",
+      "price": "1.69",
+      "discount": "0.34",
+      "purchaseDate": "2022-5-2",
+      "id": 374
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "Dvaro",
+      "quantity": 1,
+      "place": "Rimi",
+      "price": "1.29",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 375
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "kaimiski Rimi",
+      "quantity": "10",
+      "place": "Rimi",
+      "price": "1.89",
+      "discount": "1.00",
+      "purchaseDate": "2022-5-2",
+      "id": 376
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vanilinis plombyras Pols vafliniame kugyje",
+      "quantity": "0.200",
+      "place": "Rimi",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 377
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "kokosiniai su migdolais Nykstukas",
+      "quantity": "0.150",
+      "place": "Rimi",
+      "price": "1.55",
+      "discount": "0.30",
+      "purchaseDate": "2022-5-2",
+      "id": 378
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "virtos Jokiu E",
+      "quantity": "0.210",
+      "place": "Rimi",
+      "price": "2.29",
+      "discount": "0.92",
+      "purchaseDate": "2022-5-2",
+      "id": 379
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "virtos Jokiu E",
+      "quantity": "0.210",
+      "place": "Rimi",
+      "price": "2.29",
+      "discount": "0.92",
+      "purchaseDate": "2022-5-2",
+      "id": 380
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasa",
+      "quantity": "0.200",
+      "place": "Rimi",
+      "price": "0.67",
+      "discount": "0.13",
+      "purchaseDate": "2022-5-2",
+      "id": 381
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasa",
+      "quantity": "0.200",
+      "place": "Rimi",
+      "price": "0.67",
+      "discount": "0.13",
+      "purchaseDate": "2022-5-2",
+      "id": 382
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "Granny smith",
+      "quantity": "0.540",
+      "place": "Rimi",
+      "price": "1.40",
+      "discount": "0.28",
+      "purchaseDate": "2022-5-2",
+      "id": 383
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "boliviniu balandu ir darzoviu misinys Greatlife",
+      "quantity": "0.500",
+      "place": "Rimi",
+      "price": "3.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 384
+    },
+    {
+      "KeyName": "saldytas pusfabrikatis",
+      "AdditionalInf": "boliviniu balandu ir darzoviu misinys Greatlife",
+      "quantity": "0.500",
+      "place": "Rimi",
+      "price": "3.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 385
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "pyne su obuoliais ir cinamonu",
+      "quantity": "0.330",
+      "place": "Rimi",
+      "price": "1.75",
+      "discount": "0.70",
+      "purchaseDate": "2022-5-2",
+      "id": 386
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "Rimi Mozzarella",
+      "quantity": "0.125",
+      "place": "Rimi",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 387
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "Rimi Mozzarella",
+      "quantity": "0.125",
+      "place": "Rimi",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 388
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "1.39/kg --> 1.09/kg",
+      "quantity": "0.640",
+      "place": "Rimi",
+      "price": "0.89",
+      "discount": "0.19",
+      "purchaseDate": "2022-5-2",
+      "id": 389
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "pyragas su aguonu idaru",
+      "quantity": "0.340",
+      "place": "Rimi",
+      "price": "2.39",
+      "discount": "0.96",
+      "purchaseDate": "2022-5-2",
+      "id": 390
+    },
+    {
+      "KeyName": "agurkai",
+      "AdditionalInf": "Lietuviskas ilgavaisis vnt",
+      "quantity": "1",
+      "place": "Rimi",
+      "price": "1.49",
+      "discount": "0.70",
+      "purchaseDate": "2022-5-2",
+      "id": 391
+    },
+    {
+      "KeyName": "obuoliai",
+      "AdditionalInf": "sveriami 0.65/kg --> 0.44/kg",
+      "quantity": "1.430",
+      "place": "Rimi",
+      "price": "0.93",
+      "discount": "0.29",
+      "purchaseDate": "2022-5-2",
+      "id": 392
+    },
+    {
+      "KeyName": "moliugas",
+      "AdditionalInf": "sviestinis 1.68/kg --> 1.25/kg",
+      "quantity": "1.405",
+      "place": "Rimi",
+      "price": "2.37",
+      "discount": "0.61",
+      "purchaseDate": "2022-5-2",
+      "id": 393
+    },
+    {
+      "KeyName": "moliugas",
+      "AdditionalInf": "sviestinis 1.68/kg --> 1.25/kg",
+      "quantity": "1.090",
+      "place": "Rimi",
+      "price": "1.84",
+      "discount": "0.48",
+      "purchaseDate": "2022-5-2",
+      "id": 394
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su plikytu kremu ir sokoladu",
+      "quantity": "0.075",
+      "place": "Rimi",
+      "price": "0.52",
+      "discount": "0.21",
+      "purchaseDate": "2022-5-2",
+      "id": 395
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su plikytu kremu ir sokoladu",
+      "quantity": "0.075",
+      "place": "Rimi",
+      "price": "0.52",
+      "discount": "0.21",
+      "purchaseDate": "2022-5-2",
+      "id": 396
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su plikytu kremu ir sokoladu",
+      "quantity": "0.075",
+      "place": "Rimi",
+      "price": "0.52",
+      "discount": "0.21",
+      "purchaseDate": "2022-5-2",
+      "id": 397
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su plikytu kremu ir sokoladu",
+      "quantity": "0.075",
+      "place": "Rimi",
+      "price": "0.52",
+      "discount": "0.21",
+      "purchaseDate": "2022-5-2",
+      "id": 398
+    },
+    {
+      "KeyName": "pievagrybiai",
+      "AdditionalInf": "Grill",
+      "quantity": "0.500",
+      "place": "Rimi",
+      "price": "1.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-2",
+      "id": 399
+    },
+    {
+      "KeyName": "Nutriless",
+      "AdditionalInf": "vistienos sriuba",
+      "quantity": "0.225",
+      "place": "Rimi",
+      "price": "9.99",
+      "discount": "0",
+      "purchaseDate": "2022-5-3",
+      "id": 400
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vanilinis plombyras ledai kugin vaflyje",
+      "quantity": "0.200",
+      "place": "Rimi",
+      "price": "1.69",
+      "discount": "0.50",
+      "purchaseDate": "2022-5-3",
+      "id": 401
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vanilinis plombyras ledai kugin vaflyje",
+      "quantity": "0.200",
+      "place": "Rimi",
+      "price": "1.69",
+      "discount": "0.50",
+      "purchaseDate": "2022-5-3",
+      "id": 402
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "1.39/kg --> 1.09/kg",
+      "quantity": "0.690",
+      "place": "Rimi",
+      "price": "0.96",
+      "discount": "0.21",
+      "purchaseDate": "2022-5-3",
+      "id": 403
+    },
+    {
+      "KeyName": "ledai",
+      "AdditionalInf": "vanilinis plombyras ledai kugin vaflyje",
+      "quantity": "0.200",
+      "place": "Rimi",
+      "price": "1.69",
+      "discount": "0.51",
+      "purchaseDate": "2022-5-3",
+      "id": 404
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "su braskemis Bifi Active",
+      "quantity": "0.360",
+      "place": "Rimi",
+      "price": "1.45",
+      "discount": "0.29",
+      "purchaseDate": "2022-5-3",
+      "id": 405
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "lazdyno Awake",
+      "quantity": "0.150",
+      "place": "Rimi",
+      "price": "2.05",
+      "discount": "0.40",
+      "purchaseDate": "2022-5-3",
+      "id": 406
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "Rimi",
+      "price": "1.85",
+      "discount": "0.55",
+      "purchaseDate": "2022-5-3",
+      "id": 407
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "Rimi",
+      "price": "1.85",
+      "discount": "0.55",
+      "purchaseDate": "2022-5-3",
+      "id": 408
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "Rimi",
+      "price": "1.85",
+      "discount": "0.55",
+      "purchaseDate": "2022-5-3",
+      "id": 409
+    },
+    {
+      "KeyName": "tunas",
+      "AdditionalInf": "pomidoru padaze Rimi",
+      "quantity": "0.185",
+      "place": "Rimi",
+      "price": "1.85",
+      "discount": "0.55",
+      "purchaseDate": "2022-5-3",
+      "id": 410
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "varskes spurga",
+      "quantity": "0.082",
+      "place": "Rimi",
+      "price": "0.89",
+      "discount": "0.35",
+      "purchaseDate": "2022-5-3",
+      "id": 411
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "varskes spurga",
+      "quantity": "0.082",
+      "place": "Rimi",
+      "price": "0.89",
+      "discount": "0.35",
+      "purchaseDate": "2022-5-3",
+      "id": 412
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su varske",
+      "quantity": "0.070",
+      "place": "Rimi",
+      "price": "0.50",
+      "discount": "0.20",
+      "purchaseDate": "2022-5-3",
+      "id": 413
+    },
+    {
+      "KeyName": "uogos",
+      "AdditionalInf": "silauoges Rimi",
+      "quantity": "0.400",
+      "place": "Rimi",
+      "price": "5.59",
+      "discount": "3.49",
+      "purchaseDate": "2022-5-3",
+      "id": 414
+    },
+    {
+      "KeyName": "kava",
+      "AdditionalInf": "Paulig",
+      "quantity": "0.500",
+      "place": "Rimi",
+      "price": "8.49",
+      "discount": "3.50",
+      "purchaseDate": "2022-5-3",
+      "id": 415
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "snikers",
+      "quantity": "0.037",
+      "place": "Rimi",
+      "price": "0.79",
+      "discount": "0.24",
+      "purchaseDate": "2022-5-3",
+      "id": 416
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "snikers",
+      "quantity": "0.037",
+      "place": "Rimi",
+      "price": "0.79",
+      "discount": "0.24",
+      "purchaseDate": "2022-5-3",
+      "id": 417
+    },
+    {
+      "KeyName": "sausi pusryciai",
+      "AdditionalInf": "nestle cookie crisp dribsniai",
+      "quantity": "0.425",
+      "place": "Lidl",
+      "price": "2.39",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 418
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "morku,apelsinu, obuoliu gerimas",
+      "quantity": "0.750",
+      "place": "Lidl",
+      "price": "0.85",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 419
+    },
+    {
+      "KeyName": "sausainiai",
+      "AdditionalInf": "imbieriniai",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "2.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 420
+    },
+    {
+      "KeyName": "nektarinai",
+      "AdditionalInf": "1.66/kg",
+      "quantity": "1.034",
+      "place": "Lidl",
+      "price": "1.72",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 421
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "zalia spurga",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.39",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 422
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "zalia spurga",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.39",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 423
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "spurga glaistyta alyvines spalvos",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.45",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 424
+    },
+    {
+      "KeyName": "ridikeliai",
+      "AdditionalInf": "rysulelis",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 425
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "1.39/kg",
+      "quantity": "0.770",
+      "place": "Lidl",
+      "price": "1.07",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 426
+    },
+    {
+      "KeyName": "sausainiai",
+      "AdditionalInf": "Neo",
+      "quantity": "0.137",
+      "place": "Lidl",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 427
+    },
+    {
+      "KeyName": "Grietine",
+      "AdditionalInf": "12%",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.89",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 428
+    },
+    {
+      "KeyName": "Kefyras",
+      "AdditionalInf": "lidl",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 429
+    },
+    {
+      "KeyName": "Pienas",
+      "AdditionalInf": "lidl",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-22",
+      "id": 430
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "visciuku slauneles",
+      "quantity": "0.411",
+      "place": "Lidl",
+      "price": "1.23",
+      "discount": "0.41",
+      "purchaseDate": "2022-8-22",
+      "id": 431
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "visciuku slauneles",
+      "quantity": "0.411",
+      "place": "Lidl",
+      "price": "1.23",
+      "discount": "0.41",
+      "purchaseDate": "2022-8-22",
+      "id": 432
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "italiska duona Focaccia",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "1.07",
+      "discount": "0.41",
+      "purchaseDate": "2022-8-22",
+      "id": 433
+    },
+    {
+      "KeyName": "geles",
+      "AdditionalInf": "Spalvotos tulpes",
+      "quantity": "21",
+      "place": "Lidl",
+      "price": "8.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 434
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "Primitivo di mandur vynas",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "7.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 435
+    },
+    {
+      "KeyName": "alkoholis",
+      "AdditionalInf": "Chardonnay di Sicili",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "5.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 436
+    },
+    {
+      "KeyName": "pienas",
+      "AdditionalInf": "lidl",
+      "quantity": "1",
+      "place": "Lidl",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 437
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "tarkuotas Emmental",
+      "quantity": "0.200",
+      "place": "Lidl",
+      "price": "1.89",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 438
+    },
+    {
+      "KeyName": "skalbimo - valymo priemones",
+      "AdditionalInf": "indaploviu kapsules Finish powerball ultimate all in 1",
+      "quantity": "70",
+      "place": "maxima",
+      "price": "31.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 439
+    },
+    {
+      "KeyName": "skalbimo - valymo priemones",
+      "AdditionalInf": "skalbiamieji milteliai Ariel color",
+      "quantity": "60",
+      "place": "maxima",
+      "price": "18.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 440
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "Saules pienas",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.09",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 441
+    },
+    {
+      "KeyName": "kava",
+      "AdditionalInf": "Jacobs",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "8.49",
+      "discount": "3.80",
+      "purchaseDate": "2022-8-27",
+      "id": 442
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "Elmenhorster",
+      "quantity": "2",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0.60",
+      "purchaseDate": "2022-8-27",
+      "id": 443
+    },
+    {
+      "KeyName": "jugurtas",
+      "AdditionalInf": "gerimas Graikiska amfora su apelsinais",
+      "quantity": "0.5",
+      "place": "maxima",
+      "price": "1.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 444
+    },
+    {
+      "KeyName": "padazas",
+      "AdditionalInf": "grudetosios garstycios Clovis",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "1.89",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 445
+    },
+    {
+      "KeyName": "kakava",
+      "AdditionalInf": "Beatos",
+      "quantity": "0.150",
+      "place": "maxima",
+      "price": "1.89",
+      "discount": "0.40",
+      "purchaseDate": "2022-8-27",
+      "id": 446
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "coca-cola",
+      "quantity": "1.5",
+      "place": "maxima",
+      "price": "1.58",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 447
+    },
+    {
+      "KeyName": "sutirstintas pienas",
+      "AdditionalInf": "Lukšių pieninė",
+      "quantity": "0.385",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 448
+    },
+    {
+      "KeyName": "sonine",
+      "AdditionalInf": "kiaulienos Best butcher",
+      "quantity": "0.330",
+      "place": "maxima",
+      "price": "2.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 449
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "visciuku blauzdeles Best butcher",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "1.00",
+      "purchaseDate": "2022-8-27",
+      "id": 450
+    },
+    {
+      "KeyName": "vistiena",
+      "AdditionalInf": "visciuku blauzdeles Best butcher",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "1.00",
+      "purchaseDate": "2022-8-27",
+      "id": 451
+    },
+    {
+      "KeyName": "aliejus",
+      "AdditionalInf": "alyvuogiu El godo",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "3.29",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 452
+    },
+    {
+      "KeyName": "misraine",
+      "AdditionalInf": "burokeliu",
+      "quantity": "0.424",
+      "place": "maxima",
+      "price": "1.34",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 453
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "brazilines bertoletijos Sunny frutown",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "3.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 454
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.2",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 455
+    },
+    {
+      "KeyName": "riesutai",
+      "AdditionalInf": "sudyti ir kepinti zemes riesutai",
+      "quantity": "0.260",
+      "place": "maxima",
+      "price": "0.67",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-27",
+      "id": 456
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "raudonasis chederio Cheese world",
+      "quantity": "0.218",
+      "place": "maxima",
+      "price": "2.74",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 457
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "masdamo",
+      "quantity": "0.420",
+      "place": "maxima",
+      "price": "5.88",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 458
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "lietuviski 0.48/kg",
+      "quantity": "0.230",
+      "place": "maxima",
+      "price": "0.14",
+      "discount": "0.03",
+      "purchaseDate": "2022-8-27",
+      "id": 459
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "baltieji 3.00/kg",
+      "quantity": "0.130",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 460
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "rausvieji  1.00/kg",
+      "quantity": "0.170",
+      "place": "maxima",
+      "price": "0.17",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 461
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "italiska duona",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.25",
+      "discount": "0.30",
+      "purchaseDate": "2022-8-27",
+      "id": 462
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "Noris",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 463
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "Noris",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 464
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "Noris",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 465
+    },
+    {
+      "KeyName": "greitai paruosiami makaronai",
+      "AdditionalInf": "Noris",
+      "quantity": "0.050",
+      "place": "maxima",
+      "price": "0.39",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 466
+    },
+    {
+      "KeyName": "nektarinai",
+      "AdditionalInf": "2.79/kg -> 1.59/kg",
+      "quantity": "1.462",
+      "place": "maxima",
+      "price": "4.08",
+      "discount": "1.76",
+      "purchaseDate": "2022-8-27",
+      "id": 467
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladiniu idaru",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.60",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 468
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "kruasanas su sokoladiniu idaru",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.60",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 469
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "spurga",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.60",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 470
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "spurga",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.60",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 471
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su cinamonu",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.40",
+      "discount": "0.10",
+      "purchaseDate": "2022-8-27",
+      "id": 472
+    },
+    {
+      "KeyName": "bandele",
+      "AdditionalInf": "su cinamonu ir obuoliu idaru",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.60",
+      "discount": "0",
+      "purchaseDate": "2022-8-27",
+      "id": 473
+    },
+    {
+      "KeyName": "pieno pakaitalas",
+      "AdditionalInf": "migdolu gerimas Veggo",
+      "quantity": 1,
+      "place": "maxima",
+      "price": "2.99",
+      "discount": "0.60",
+      "purchaseDate": "2022-8-6",
+      "id": 474
+    },
+    {
+      "KeyName": "kiausiniai",
+      "AdditionalInf": "ant kraiko Favorit",
+      "quantity": "10",
+      "place": "maxima",
+      "price": "1.89",
+      "discount": "0.60",
+      "purchaseDate": "2022-8-6",
+      "id": 475
+    },
+    {
+      "KeyName": "sviestas",
+      "AdditionalInf": "lydytas Ghee",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "9.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 476
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 477
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 478
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 479
+    },
+    {
+      "KeyName": "sviestas",
+      "AdditionalInf": "Dvaro",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "2.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 480
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 481
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 482
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Rasens",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "0.79",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 483
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "mocarelos Granarolo",
+      "quantity": "0.220",
+      "place": "maxima",
+      "price": "1.29",
+      "discount": "0.40",
+      "purchaseDate": "2022-8-6",
+      "id": 484
+    },
+    {
+      "KeyName": "zoleles",
+      "AdditionalInf": "petrazoles",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0.40",
+      "purchaseDate": "2022-8-6",
+      "id": 485
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "raudonasis chederio Cheese world",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "3.15",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 486
+    },
+    {
+      "KeyName": "suris",
+      "AdditionalInf": "mocarelos Granarolo",
+      "quantity": "0.220",
+      "place": "maxima",
+      "price": "1.29",
+      "discount": "0.40",
+      "purchaseDate": "2022-8-6",
+      "id": 487
+    },
+    {
+      "KeyName": "greipfutai",
+      "AdditionalInf": "dideli raudonieji",
+      "quantity": "0.582",
+      "place": "maxima",
+      "price": "1.05",
+      "discount": "0.37",
+      "purchaseDate": "2022-8-6",
+      "id": 488
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "Graikiska amfora",
+      "quantity": "0.582",
+      "place": "maxima",
+      "price": "2.05",
+      "discount": "0.36",
+      "purchaseDate": "2022-8-6",
+      "id": 489
+    },
+    {
+      "KeyName": "bananai",
+      "AdditionalInf": "1.39/kg",
+      "quantity": "0.340",
+      "place": "maxima",
+      "price": "0.47",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 490
+    },
+    {
+      "KeyName": "svogunai",
+      "AdditionalInf": "saldieji Grano 2.68/kg",
+      "quantity": "0.306",
+      "place": "maxima",
+      "price": "0.82",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 491
+    },
+    {
+      "KeyName": "bulves",
+      "AdditionalInf": "0.59/kg",
+      "quantity": "0.908",
+      "place": "maxima",
+      "price": "0.54",
+      "discount": "0",
+      "purchaseDate": "2022-8-6",
+      "id": 492
+    },
+    {
+      "KeyName": "pica",
+      "AdditionalInf": "maxima",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.45",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 493
+    },
+    {
+      "KeyName": "pica",
+      "AdditionalInf": "maxima",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.45",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 494
+    },
+    {
+      "KeyName": "kefyras",
+      "AdditionalInf": "Vilkyskiu",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.95",
+      "discount": "0.36",
+      "purchaseDate": "2022-8-17",
+      "id": 495
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-17",
+      "id": 496
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-17",
+      "id": 497
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-17",
+      "id": 498
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-17",
+      "id": 499
+    },
+    {
+      "KeyName": "grietine",
+      "AdditionalInf": "Zalioji karvute 12%",
+      "quantity": "0.400",
+      "place": "maxima",
+      "price": "1.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 500
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "Actifeel",
+      "quantity": "0.300",
+      "place": "maxima",
+      "price": "1.09",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-17",
+      "id": 501
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "Actifeel",
+      "quantity": "0.300",
+      "place": "maxima",
+      "price": "1.19",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-17",
+      "id": 502
+    },
+    {
+      "KeyName": "batonas",
+      "AdditionalInf": "italiska duona",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "1.25",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 503
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "Berlinki",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0.74",
+      "purchaseDate": "2022-8-17",
+      "id": 504
+    },
+    {
+      "KeyName": "desreles",
+      "AdditionalInf": "Berlinki",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.99",
+      "discount": "0.74",
+      "purchaseDate": "2022-8-17",
+      "id": 505
+    },
+    {
+      "KeyName": "vaikiski drabuziai",
+      "AdditionalInf": "mergaitiskos kelnaites",
+      "quantity": "5",
+      "place": "maxima",
+      "price": "7.99",
+      "discount": "3.00",
+      "purchaseDate": "2022-8-17",
+      "id": 506
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "rasalo kapsules indelyje",
+      "quantity": "30",
+      "place": "maxima",
+      "price": "3.49",
+      "discount": "1.40",
+      "purchaseDate": "2022-8-17",
+      "id": 507
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "apelsinu Happy Day",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.19",
+      "discount": "1.09",
+      "purchaseDate": "2022-8-17",
+      "id": 508
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "apelsinu Happy Day",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.19",
+      "discount": "1.09",
+      "purchaseDate": "2022-8-17",
+      "id": 509
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "Plunsnakotis",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "7.49",
+      "discount": "3.00",
+      "purchaseDate": "2022-8-17",
+      "id": 510
+    },
+    {
+      "KeyName": "sultys",
+      "AdditionalInf": "sviezios morku",
+      "quantity": "0.250",
+      "place": "maxima",
+      "price": "1.45",
+      "discount": "0",
+      "purchaseDate": "2022-8-16",
+      "id": 511
+    },
+    {
+      "KeyName": "daktariska desra",
+      "AdditionalInf": "Utenos",
+      "quantity": "0.600",
+      "place": "maxima",
+      "price": "4.89",
+      "discount": "2.45",
+      "purchaseDate": "2022-8-16",
+      "id": 512
+    },
+    {
+      "KeyName": "pomidorai",
+      "AdditionalInf": "slyviniai",
+      "quantity": "0.500",
+      "place": "maxima",
+      "price": "1.19",
+      "discount": "0.40",
+      "purchaseDate": "2022-8-16",
+      "id": 513
+    },
+    {
+      "KeyName": "spraginti kukuruzai",
+      "AdditionalInf": "Pop house",
+      "quantity": "0.180",
+      "place": "maxima",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-16",
+      "id": 514
+    },
+    {
+      "KeyName": "sviestas",
+      "AdditionalInf": "Marge",
+      "quantity": "0.200",
+      "place": "maxima",
+      "price": "2.79",
+      "discount": "1.20",
+      "purchaseDate": "2022-8-16",
+      "id": 515
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-16",
+      "id": 516
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-16",
+      "id": 517
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-16",
+      "id": 518
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "maxima",
+      "price": "0.59",
+      "discount": "0.34",
+      "purchaseDate": "2022-8-16",
+      "id": 519
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "korekcine juostele",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "0.89",
+      "discount": "0.36",
+      "purchaseDate": "2022-8-16",
+      "id": 520
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "tapybos sasiuvinys Grafia 190gsm",
+      "quantity": "1",
+      "place": "maxima",
+      "price": "2.19",
+      "discount": "0.88",
+      "purchaseDate": "2022-8-16",
+      "id": 521
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "akvarelinis sasiuvinys 200gsm",
+      "quantity": "20",
+      "place": "maxima",
+      "price": "2.89",
+      "discount": "1.20",
+      "purchaseDate": "2022-8-16",
+      "id": 522
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "braizybos sasiuvinys Smlt",
+      "quantity": "20",
+      "place": "maxima",
+      "price": "1.29",
+      "discount": "0.52",
+      "purchaseDate": "2022-8-16",
+      "id": 523
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "eskizavimo sasiuvinys Smlt",
+      "quantity": "70",
+      "place": "maxima",
+      "price": "3.59",
+      "discount": "1.44",
+      "purchaseDate": "2022-8-16",
+      "id": 524
+    },
+    {
+      "KeyName": "kanceliarines",
+      "AdditionalInf": "guasas",
+      "quantity": "10",
+      "place": "maxima",
+      "price": "4.49",
+      "discount": "1.80",
+      "purchaseDate": "2022-8-16",
+      "id": 525
+    },
+    {
+      "KeyName": "energetinis",
+      "AdditionalInf": "Euphoria",
+      "quantity": "0.250",
+      "place": "rimi",
+      "price": "0.29",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 526
+    },
+    {
+      "KeyName": "kokosu pienas",
+      "AdditionalInf": "Santa maria",
+      "quantity": "0.250",
+      "place": "rimi",
+      "price": "1.99",
+      "discount": "0.50",
+      "purchaseDate": "2022-8-4",
+      "id": 527
+    },
+    {
+      "KeyName": "grietinele",
+      "AdditionalInf": "President purskiama",
+      "quantity": "0.250",
+      "place": "rimi",
+      "price": "2.05",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 528
+    },
+    {
+      "KeyName": "jogurtas",
+      "AdditionalInf": "Activia",
+      "quantity": "0.280",
+      "place": "rimi",
+      "price": "1.29",
+      "discount": "0.39",
+      "purchaseDate": "2022-8-4",
+      "id": 529
+    },
+    {
+      "KeyName": "kukuruzai",
+      "AdditionalInf": "Bonduelle",
+      "quantity": "0.170",
+      "place": "rimi",
+      "price": "1.45",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 530
+    },
+    {
+      "KeyName": "kukuruzai",
+      "AdditionalInf": "Rimi",
+      "quantity": "0.165",
+      "place": "rimi",
+      "price": "1.19",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 531
+    },
+    {
+      "KeyName": "pieno gerimas",
+      "AdditionalInf": "Ehrmann",
+      "quantity": "0.250",
+      "place": "rimi",
+      "price": "1.89",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 532
+    },
+    {
+      "KeyName": "sviezios vistienos desreles",
+      "AdditionalInf": "su zolelemis",
+      "quantity": "0.500",
+      "place": "rimi",
+      "price": "3.49",
+      "discount": "1.10",
+      "purchaseDate": "2022-8-4",
+      "id": 533
+    },
+    {
+      "KeyName": "vynuoges",
+      "AdditionalInf": "melynosios besekles Rimi selection",
+      "quantity": "0.400",
+      "place": "rimi",
+      "price": "2.59",
+      "discount": "1.10",
+      "purchaseDate": "2022-8-4",
+      "id": 534
+    },
+    {
+      "KeyName": "sriubos milteliai",
+      "AdditionalInf": "Maggi",
+      "quantity": "0.014",
+      "place": "rimi",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 535
+    },
+    {
+      "KeyName": "sriubos milteliai",
+      "AdditionalInf": "Maggi",
+      "quantity": "0.014",
+      "place": "rimi",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 536
+    },
+    {
+      "KeyName": "sriubos milteliai",
+      "AdditionalInf": "Maggi",
+      "quantity": "0.014",
+      "place": "rimi",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 537
+    },
+    {
+      "KeyName": "sriubos milteliai",
+      "AdditionalInf": "Maggi",
+      "quantity": "0.014",
+      "place": "rimi",
+      "price": "0.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 538
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "riesutu",
+      "quantity": "0.035",
+      "place": "rimi",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 539
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "riesutu",
+      "quantity": "0.035",
+      "place": "rimi",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 540
+    },
+    {
+      "KeyName": "batonelis",
+      "AdditionalInf": "riesutu",
+      "quantity": "0.035",
+      "place": "rimi",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 541
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-4",
+      "id": 542
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-4",
+      "id": 543
+    },
+    {
+      "KeyName": "surelis",
+      "AdditionalInf": "Magija",
+      "quantity": "0.045",
+      "place": "rimi",
+      "price": "0.59",
+      "discount": "0.20",
+      "purchaseDate": "2022-8-4",
+      "id": 544
+    },
+    {
+      "KeyName": "sonine",
+      "AdditionalInf": "Rimi",
+      "quantity": "0.320",
+      "place": "rimi",
+      "price": "3.29",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 545
+    },
+    {
+      "KeyName": "gerimas",
+      "AdditionalInf": "mineralinis Rasa",
+      "quantity": "1.5",
+      "place": "rimi",
+      "price": "0.75",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 546
+    },
+    {
+      "KeyName": "traskuciai",
+      "AdditionalInf": "dziuveseliai Maretti",
+      "quantity": "0.070",
+      "place": "rimi",
+      "price": "0.99",
+      "discount": "0",
+      "purchaseDate": "2022-8-4",
+      "id": 547
+    },
+    {
+      "KeyName": "kava kavineje",
+      "AdditionalInf": "latte",
+      "quantity": "1",
+      "place": "verkiu 29 Konditerijos meistrai",
+      "price": "2.50",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 548
+    },
+    {
+      "KeyName": "kavineje",
+      "AdditionalInf": "kakava cukraineje su Nastia",
+      "quantity": "1",
+      "place": "verkiu 29 Konditerijos meistrai",
+      "price": "2.00",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 549
+    },
+    {
+      "KeyName": "kavineje",
+      "AdditionalInf": "konditerija cukraineje su Nastia",
+      "quantity": "1",
+      "place": "verkiu 29 Konditerijos meistrai",
+      "price": "2.08",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 550
+    },
+    {
+      "KeyName": "kava kavineje",
+      "AdditionalInf": "latte",
+      "quantity": "1",
+      "place": "Caif-Cafe",
+      "price": "3.10",
+      "discount": "0",
+      "purchaseDate": "2022-8-17",
+      "id": 551
+    },
+    {
+      "KeyName": "kavineje",
+      "AdditionalInf": "milkshake Nastiai",
+      "quantity": "1",
+      "place": "Caif-Cafe",
+      "price": "3.50",
+      "discount": "1.00",
+      "purchaseDate": "2022-8-17",
+      "id": 552
+    },
+    {
+      "KeyName": "skalbimo - valymo priemones",
+      "AdditionalInf": "mazas indu sepetelis",
+      "quantity": "1",
+      "place": "drogas",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-19",
+      "id": 553
+    },
+    {
+      "KeyName": "skalbimo - valymo priemones",
+      "AdditionalInf": "mazas indu sepetelis",
+      "quantity": "1",
+      "place": "drogas",
+      "price": "0.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-19",
+      "id": 554
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "jautienos ispjova urugvajus",
+      "quantity": "0.210",
+      "place": "Mesos broliai",
+      "price": "16.59",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 555
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "jautienos ispjova urugvajus",
+      "quantity": "0.178",
+      "place": "Mesos broliai",
+      "price": "14.06",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 556
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "jautienos ispjova urugvajus",
+      "quantity": "0.234",
+      "place": "Mesos broliai",
+      "price": "18.49",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 557
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "jautienos ispjova urugvajus",
+      "quantity": "0.182",
+      "place": "Mesos broliai",
+      "price": "14.38",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 558
+    },
+    {
+      "KeyName": "jautiena",
+      "AdditionalInf": "jautienos ispjova urugvajus",
+      "quantity": "0.186",
+      "place": "Mesos broliai",
+      "price": "14.69",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 559
+    },
+    {
+      "KeyName": "maisiukas",
+      "AdditionalInf": "popierinis",
+      "quantity": "0.186",
+      "place": "Mesos broliai",
+      "price": "0.15",
+      "discount": "0",
+      "purchaseDate": "2022-8-31",
+      "id": 560
+    },
+    {
+      "KeyName": "daiktai",
+      "AdditionalInf": "metalinis kelioninis puodelis",
+      "quantity": "1",
+      "place": "Metausta Laisves 88",
+      "price": "8.96",
+      "discount": "0",
+      "purchaseDate": "2022-8-3",
+      "id": 561
+    },
+    {
+      "KeyName": "transportas",
+      "AdditionalInf": "viesojo transporto kortele 50% lengvata",
+      "quantity": "1",
+      "place": "Reitan Convenience Lithuania",
+      "price": "1.50",
+      "discount": "0",
+      "purchaseDate": "2022-8-3",
+      "id": 562
+    },
+    {
+      "KeyName": "transportas",
+      "AdditionalInf": "viesojo-transporto bilietai 50% lengvata",
+      "quantity": "10",
+      "place": "Reitan Convenience Lithuania",
+      "price": "3.30",
+      "discount": "0",
+      "purchaseDate": "2022-8-3",
+      "id": 563
+    }
+  ]
+}

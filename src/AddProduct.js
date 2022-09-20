@@ -4,7 +4,8 @@ const AddProductForm = ({clicked, submitted}) => {
     console.log("AddProductForm component begin");
     const date = new Date();
     let dateString = date.getFullYear().toString()+"-"+(date.getMonth()+1).toString()+"-"+date.getDate().toString();
-    const [name, setName] = useState("");
+    const [KeyName, setKeyName] = useState("");
+    const [AdditionalInf, setAdditionalInf] = useState("");
     const [quantity, setQuantity] = useState(1);
     const [place, setPlace] = useState("iki");
     const [price, setPrice] = useState("1.50");
@@ -14,7 +15,11 @@ const AddProductForm = ({clicked, submitted}) => {
 
     useEffect(()=>{  
         if (clicked)   {
-            setName(clicked.name);
+            setKeyName(clicked.KeyName);
+            setAdditionalInf(clicked.AdditionalInf);
+            setQuantity(clicked.quantity);
+            setPrice(clicked.price);
+            setDiscount(clicked.discount);
         }      
                     },[clicked])
 
@@ -22,7 +27,7 @@ const AddProductForm = ({clicked, submitted}) => {
     const handleSubmit = (e) => {
         e.preventDefault();                       
         submitted();        
-        const product = { name, quantity, place, price, discount, purchaseDate } ;
+        const product = { KeyName, AdditionalInf, quantity, place, price, discount, purchaseDate } ;
         setPending(true);
 
       fetch("http://localhost:8000/products",
@@ -35,26 +40,45 @@ const AddProductForm = ({clicked, submitted}) => {
           setPending(false)
                   })     
 
-    }
-
-    const handleChange = (e) =>{
-        setName(e.target.value);  
-    }
+    }    
 
     return ( 
         <div className='add-form' id="borderScrew">
             <form onSubmit = {handleSubmit}>
-                <div className='add-form-purchaseDate'>                
-                    <label> Product name </label>                
+                <div className='add-form-purchaseDate'>
+                    <div className="dropdown">                
+                        <label> Product keyword </label>
+                        <div className="dropdown-content">
+                            Word by which your purchase will be grouped. If it is "milk drink" do you want it in "milk" or "drink" category or whole new "milk drink" category ? 
+                        </div>
+                    </div>                
                     <input 
                     name="ProductName"
                     type="text" 
-                    required value = {name} 
-                    onChange={(e)=>handleChange(e)} />                
+                    required value = {KeyName} 
+                    onChange={(e)=>setKeyName(e.target.value)} />         
+                </div>
+                <div className='add-form-purchaseDate'>
+                    <div className="dropdown">                
+                        <label> additional information </label>
+                        <div className="dropdown-content">
+                           Not important for sorting information like brand name, flavour, size. More like memo
+                        </div>
+                    </div>                
+                    <input 
+                    name="ProductName"
+                    type="text" 
+                    required value = {AdditionalInf} 
+                    onChange={(e)=>setAdditionalInf(e.target.value)} />         
                 </div>
                 <div>                    
                     <div className='add-form-column'>
-                    <label> Product quantity </label>
+                        <div className="dropdown">
+                            <label> Product quantity </label>
+                            <div className="dropdown-content">
+                                Quantity of ONE package in kg, liters or unit number
+                            </div>
+                        </div>
                     <input type="number" 
                     required value = {quantity} 
                     onChange={(e)=>setQuantity(e.target.value)} />                 
