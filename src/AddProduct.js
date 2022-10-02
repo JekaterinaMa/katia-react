@@ -26,7 +26,7 @@ const AddProductForm = ({clicked, submitted}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();                       
-        submitted();        
+                
         const product = { KeyName, AdditionalInf, quantity, place, price, discount, purchaseDate } ;
         setPending(true);
 
@@ -37,7 +37,8 @@ const AddProductForm = ({clicked, submitted}) => {
           body: JSON.stringify(product)
       })
       .then(()=>{
-          setPending(false)
+          setPending(false);
+          submitted();
                   })     
 
     }    
