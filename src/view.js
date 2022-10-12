@@ -12,24 +12,29 @@ const View = () => {
     const date = new Date();
     let dateString = date.getFullYear().toString()+"-"+(date.getMonth()+1).toString()+"-"+date.getDate().toString();
     let [ChosenDate,setChosenDate] = useState(dateString);
-    let [ChosenYear,setChosenYear] = useState(date.getFullYear().toString());
-    let [ChosenMonth,setChosenMonth] = useState((date.getMonth()+1).toString());
+    let [ChosenYear,setChosenYear] = useState(date.getFullYear().toString());    
     let MonthArray = [1,2,3,4,5,6,7,8,9,10,11,12];
     let KeyID = 0;
+    let [ChosenMonth1,setChosenMonth1] = useState("1");
+    let [ChosenMonth2,setChosenMonth2] = useState("1");              
+            
 
-    const {data, isPending, failed, SDateArray, SYearArray, DayProductList, MonthProductList} = useLoadData("http://localhost:8000/products",ChosenMonth ,ChosenYear, ChosenDate );        
-    console.log(" View MonthProductList after useLoadData:"+ MonthProductList);   
+    const {data, isPending, failed, SDateArray, SYearArray, MonthProductList, SChosenMonthSet} = useLoadData("http://localhost:8000/products",ChosenMonth1, ChosenMonth2, ChosenYear);
+    console.log("what useLoadData returned in view Month product list, Chosen Month set");
+    console.log(MonthProductList);
+    console.log(SChosenMonthSet);     
+    
     
     let handleChangeYear = (e) => {
             setChosenYear(e.target.value);             
             }
             
-    let handleChangeMonth = (e) => {
-            setChosenMonth(e.target.value);             
+    let handleChangeMonth1 = (e) => {
+            setChosenMonth1(e.target.value);             
             } 
 
-    let handleChangeDate = (e) => {
-            setChosenDate(e.target.value);             
+    let handleChangeMonth2 = (e) => {
+        setChosenMonth2(e.target.value);             
             }  
               
     
@@ -56,7 +61,7 @@ const View = () => {
             </div> 
         }        
             <div className="view-select">
-                <select onChange={handleChangeMonth}>
+                <select onChange={handleChangeMonth1}>
                     {  
                         MonthArray.map(month => (      
                                 <option
@@ -67,7 +72,21 @@ const View = () => {
                         )) 
                     }          
                 </select>
-            </div> 
+            </div>
+            <span> - </span>
+            <div className="view-select">
+                <select onChange={handleChangeMonth2}>
+                    {  
+                        MonthArray.map(month => (      
+                                <option
+                                     key={KeyID++}
+                                     value={month}>
+                                         {month}
+                                </option>                  
+                        )) 
+                    }          
+                </select>
+            </div>  
         
             <div>
             {MonthProductList && <ProductsByMonthView ProductsByMonth={MonthProductList}/>}   
@@ -77,7 +96,7 @@ const View = () => {
             s
         </div>
         <div className="column2">
-            <View2 ChosenMonth={ChosenMonth} ChosenYear={ChosenYear} MonthProductListView2={MonthProductList}/>
+            <View2 ChosenMonthSet={SChosenMonthSet} ChosenYear={ChosenYear} MonthProductListView2={MonthProductList}/>
         </div>           
     </div>
      );

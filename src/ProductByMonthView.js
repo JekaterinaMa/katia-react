@@ -2,7 +2,7 @@ import ProductByDate from "./ProductByDate";
 import React, { useState, useEffect } from 'react';
 
 const ProductsByMonthView = ({ProductsByMonth}) => {
-    console.log(" ProductsByMonthView begin argument: "+ProductsByMonth);
+    
     let DateSet = {}, DateSetArray = [];
     let KeyID = 0;  
     
@@ -19,10 +19,12 @@ const ProductsByMonthView = ({ProductsByMonth}) => {
         DateSetArray.push(date);
     } 
     DateSetArray.sort(function(a,b){
-        let x = Number(a.split("-")[2]);
-        let y = Number(b.split("-")[2]);
-        if (x < y) {return -1;}
-        if (x > y) {return 1;}
+        let day1 = Number(a.split("-")[2]);
+        let day2 = Number(b.split("-")[2]);
+        let month1 = Number(a.split("-")[1]);
+        let month2 = Number(b.split("-")[1]);
+        if ((day1 < day2) || (month1 < month2)) {return -1;}
+        if ((day1 > day2) || (month1 > month2)) {return 1;}
         return 0;
     })
 

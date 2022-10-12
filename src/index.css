@@ -93,6 +93,13 @@ width: 90%;
     padding: 5px;
     margin: 0% 1% 0% 1%;
 }
+.column40left {
+    float: left;    
+    width: 28%;
+    text-align: center;
+    padding: 5px;
+    margin: 0% 1% 0% 1%;
+}
 .column60 {
     float: left;    
     width: 58%;
@@ -206,6 +213,11 @@ width: 90%;
     width: 30%;
     padding: 0 0 0 30px;
 }
+
+.column1 span {
+    font-size: 5vmin;
+}
+
 .column2 {
     
     float: left;

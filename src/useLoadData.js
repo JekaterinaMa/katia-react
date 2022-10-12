@@ -1,7 +1,7 @@
 import { useState, useEffect} from "react";
 
 
-const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
+const useLoadData = (url,ChosenMonth1,ChosenMonth2,ChosenYear) => {
 
     console.log(" useLoadData begin ");
 
@@ -14,30 +14,36 @@ const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
     let YearSet = [];
     let DateArraySet =[];    
     let YearArray = [];
+    let ChosenMonthSet = [];
+    let [SChosenMonthSet,setChosenMonthSet] = useState([]);
+    
 
     let [SDateArray,setDateArray] = useState(DateArraySet);
-    let [SYearArray,setYearArray] = useState(YearSet);
-    let [DayProductList,setDayProductList] = useState([]);
+    let [SYearArray,setYearArray] = useState(YearSet);    
     let [MonthProductList,setMonthProductList] = useState([]);
-
-    function FindDate(product) {
-        if (product.purchaseDate === ChosenDate) {
-           return { 
-                    KeyName: product.KeyName,
-                    AdditionalInf: product.AdditionalInf,
-                    place: product.place,
-                    price: product.price,
-                    discount: product.discount,
-                    id: product.id
-                   }  
+    
+    function ChosenMonthSetF(month1, month2) {
+        if ((month2-month1)<0) {
+            for (let i = month2; i<month1; i++){
+                ChosenMonthSet.push(i);                
+            }
+        }
+        if ((month2-month1)>=0) {
+            for (let i = month1; i<=month2; i++){
+                ChosenMonthSet.push(i);
+            }
         }
     }
 
+    
     function FindMonth(product) {
         
         const productMonth = product.purchaseDate.split("-");
-        if ((ChosenMonth === productMonth[1]) && (ChosenYear === productMonth[0])) {
-           return { 
+        let TrueProduct = {};
+        ChosenMonthSet.forEach(month => {
+            
+            if ((month == productMonth[1]) && (ChosenYear == productMonth[0])) {                
+                TrueProduct = { 
                     KeyName: product.KeyName,
                     AdditionalInf: product.AdditionalInf,
                     place: product.place,
@@ -45,12 +51,15 @@ const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
                     discount: product.discount,
                     purchaseDate: product.purchaseDate, 
                     id: product.id
-                   }  
-        }
+                   }
+             }
+        });
+        return Object.keys(TrueProduct).length !== 0;
+        
     }
 
           useEffect(()=>{
-              
+            
             fetch(url)
             .then(resource => { 
                 if (!resource) {
@@ -78,9 +87,13 @@ const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
                     }
                 setYearArray(YearArray);
                 setDateArray(DateArraySet);
-                setDayProductList(data.filter(FindDate));
+                ChosenMonthSetF(ChosenMonth1,ChosenMonth2);
+                setChosenMonthSet(ChosenMonthSet); 
+                console.log("chosen month set calculated ");
+                console.log(ChosenMonthSet);                
                 setMonthProductList(data.filter(FindMonth));
-                console.log(" useLoadData MonthProductList :"+MonthProductList);
+                console.log(" useLoadData MonthProductList :");
+                console.log(MonthProductList);
                 
             })
             .catch(err=>{
@@ -88,10 +101,10 @@ const useLoadData = (url,ChosenMonth,ChosenYear,ChosenDate) => {
                 setPending(false); 
                 setFailed(err.message);
             }) 
-                 
-        }, [url,ChosenMonth,ChosenYear,ChosenDate]);         
-     
-     return { data, isPending, failed, SDateArray, SYearArray, DayProductList, MonthProductList }
+                  
+        }, [url,ChosenMonth1,ChosenMonth2,ChosenYear]);         
+        console.log(" useLoadData end ");
+     return { data, isPending, failed, SDateArray, SYearArray, MonthProductList, SChosenMonthSet }
 }
  
 export default useLoadData;

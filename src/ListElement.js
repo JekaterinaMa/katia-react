@@ -1,7 +1,9 @@
 import { useState, useEffect} from "react";
 const ListElement = ({products,clicked,submitted}) => {
 
-    console.log(" List Element mounted  ");
+    console.log(" List Element begin  ");
+    console.log(submitted);
+    console.log(products);
     const [SPriceSum,SetPriceSum] = useState(0);
 
     useEffect(()=>{

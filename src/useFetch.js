@@ -3,9 +3,12 @@ import { useState, useEffect} from "react";
 
 const useFetch = (url, submitted) => {
 
+    
     const [data, setData] = useState(null);
     const [isPending, setPending] = useState(true); 
     const [failed, setFailed] = useState(null);
+    const [loaded, setLoaded] = useState(false);
+    console.log(" useFetch begin  "+submitted+" "+loaded);
 
           useEffect(()=>{
               
@@ -24,17 +27,20 @@ const useFetch = (url, submitted) => {
                  setData(data); 
                  setPending(false);
                  setFailed(null);
+                 setLoaded(!loaded);
                  console.log(" UseFetch in async part ");
+                 console.log(data[data.length-1].id);
             })
             .catch(err=>{
                 console.log(`Network error catched: ${err.message}`);
                 setPending(false); 
                 setFailed(err.message);
             }) 
-            console.log(" UseFetch data after async function code ");      
-        }, [url, submitted]);         
-     
-     return { data, isPending, failed }
+                  
+        }, [url, submitted]); 
+
+    console.log(" UseFetch end ");
+     return { data, isPending, failed, loaded }
 }
  
 export default useFetch;
